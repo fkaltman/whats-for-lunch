@@ -6,26 +6,8 @@
   text-align: center;
 }
 
-.home {
-  margin-top: 0px;
-  padding-top: 70px;
-  /* background-color: #282c34; */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* justify-content: center; */
-  /* color: #61dafb; */
-}
-
 .wfl-title {
   color: rgb(189, 171, 34);
-}
-
-.today-card {
-  margin-top: 30px;
-  border:2px solid rgb(199, 198, 193);
-  padding:8px 26px;
 }
 
 .date, .meal-name {
@@ -39,9 +21,9 @@
 }
 
 .bottom-buttons {
-  display: inline-block;
-  position: absolute;
-  bottom:50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 34vh;
 }
 
 .shopping-bag {
@@ -58,11 +40,81 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* == talk bubble styling == */
+
+/* General CSS Setup */
+body{
+  background-color: lightblue;
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+}
+
+/* container */
+.container {
+  padding: 5% 5%;
+}
+
+/* CSS talk bubble */
+.talk-bubble {
+	margin: 120px 0px 0px 40px;
+  padding-left: 20px;
+  display: inline-block;
+  position: relative;
+	width: 200px;
+	height: auto;
+	background-color: lightyellow;
+}
+
+.talk-bubble2 {
+  margin: 110px 0px 0px 120px;
+  /* padding-left: 20px; */
+  display: inline-block;
+  position: relative;
+  width: 216px;
+  height: auto;
+  background-color: lightyellow;
+}
+
+.round {
+  border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+
+.tri-right.left-in:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -18px;
+	right: auto;
+  top: 10px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: lightyellow lightyellow transparent transparent;
+}
+
+.tri-right.right-in:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -20px;
+  top: 11px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: lightyellow transparent transparent lightyellow;
+}
+
+/* talk bubble contents */
+.talktext {
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+
+.talktext p {
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
 }

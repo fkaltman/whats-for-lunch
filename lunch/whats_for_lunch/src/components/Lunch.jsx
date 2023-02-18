@@ -38,8 +38,8 @@ export default function Lunch() {
   return (
     
       <div className="today-card">
-        <h2 className ="date">{found.mealDate}</h2>
-        <h2 className ="meal-name">{found.mealName}</h2>
+        {/* <p className ="date">It's {found.mealDate}.</p> */}
+        <p className ="meal-name">{found.mealName}</p>
       </div>
    
   );
