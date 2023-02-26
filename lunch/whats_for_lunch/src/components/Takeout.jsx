@@ -13,7 +13,6 @@ class Takeout extends Component {
         <img className="chipotle-logo" src={Chipotle} alt="Chipotle icon"></img>
       </Link>
       
-      
     <div className="bottom-buttons">
       <Link to="calendar" rel="noreferrer">
         <img className="shopping-bag" src={Calendar} alt="calendar icon"></img>
@@ -26,7 +25,5 @@ class Takeout extends Component {
     );
   }
 }
-
-
 
 export default Takeout;
