@@ -1,4 +1,12 @@
-* {
+/* DEFAULT SETTINGS */
+body, h1, h2, h3, td, th, tr, a, p, table {
+  margin : 0;
+	padding: 0;
+}
+
+body {
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+	background: #f0eeee;
 }
 
 .App {
@@ -14,6 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 40px;
 }
 
 .date {
@@ -26,12 +35,12 @@
 }
 
 .shopping-bag {
-  width: 80px;
+  width: 60px;
   padding: 0px 8px;
 }
 
 .calendar {
-  width: 70px;
+  width: 50px;
   padding: 0px 8px;
 }
 
@@ -39,38 +48,47 @@
   /* color: #61dafb; */
 }
 
-/* == talk bubble styling == */
 
-/* General CSS Setup */
-body {
-  background-color: lightblue;
-  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
-}
+/* === talk bubbles === */
 
 /* container */
 .container {
   padding: 5% 5%;
 }
 
-/* CSS talk bubble */
 .talk-bubble {
-  margin: 120px 0px 0px 40px;
-  padding-left: 20px;
   display: inline-block;
   position: relative;
-  width: 200px;
   height: auto;
-  background-color: lightyellow;
+  /* background-color: #8cd9e8; */
+  box-shadow: 0 1.5px 4px rgb(0 0 0 / 10%), 0 1.5px 6px rgb(0 0 0 / 10%) !important;
+  background-size: 100% 200%;
+  background-position: 0% 50%;
+}
+
+.talk-bubble1 {
+  background: radial-gradient(circle, #d2d0d0 0%, #d3d1d1 50%);
+  margin: 120px 0px 0px 30px;
+  padding: 10px 0px 10px 30px;
+  width: 200px;
 }
 
 .talk-bubble2 {
-  margin: 110px 0px 0px 120px;
-  /* padding-left: 20px; */
-  display: inline-block;
-  position: relative;
+  background: radial-gradient(circle, #9be2f0 0%, #8cd9e8 50%);
+  margin: 110px 0px 0px 130px;
+  padding: 10px 0px 10px 30px;
+  width: 190px;
+}
+
+.talk-bubble3 {
+  background: radial-gradient(circle, #9be2f0 0%, #8cd9e8 50%);
+  margin: 20px 0px 0px 104px;
+  padding: 10px 0px 10px 30px;
   width: 216px;
-  height: auto;
-  background-color: lightyellow;
+}
+
+.display-linebreak {
+  white-space: pre-line;
 }
 
 .round {
@@ -84,12 +102,13 @@ body {
   position: absolute;
   width: 0;
   height: 0;
-  left: -18px;
+  left: -10px;
   right: auto;
-  top: 10px;
+  top: 4px;
   bottom: auto;
   border: 12px solid;
-  border-color: lightyellow lightyellow transparent transparent;
+  /* border-color: lightyellow lightyellow transparent transparent; */
+  border-color: #d3d1d1 #d3d1d1 transparent transparent;
 }
 
 .tri-right.right-in:after {
@@ -98,11 +117,12 @@ body {
   width: 0;
   height: 0;
   left: auto;
-  right: -20px;
-  top: 11px;
+  right: -10px;
+  top: 6px;
   bottom: auto;
   border: 12px solid;
-  border-color: lightyellow transparent transparent lightyellow;
+  /* border-color: lightyellow transparent transparent lightyellow; */
+  border-color: #8cd9e8 transparent transparent #8cd9e8;
 }
 
 /* talk bubble contents */
@@ -119,17 +139,6 @@ body {
 }
 
 /* === calendar styles === */
-
-/* DEFAULT SETTINGS */
-body, h1, h2, h3, td, th, tr, a, p, table {
-	margin : 0;
-	padding: 0;
-}
-
-/* BODY */
-body {
-	background: #ccc;
-}
 
 /* HEADER */
 header {
@@ -183,7 +192,7 @@ table {
 
 /* DAYS */
 .week td {
-	height: 35px;
+	height: 30px;
 	width: 50px;
 	text-align: center;
 	font: 500 1em/1em arial;
@@ -207,6 +216,6 @@ table {
 }
 
 .green {
-  color: rgb(114, 162, 101);
+  color: rgb(96, 126, 88);
   /* color:rgb(232, 48, 48); */
 }
