@@ -1,11 +1,12 @@
 import React from "react";
-import BagIcon from "../images/food_delivery_icon.png";
-import CalIcon from "../images/calendar_icon.png";
+// import BagIcon from "../images/food_delivery_icon.png";
+// import CalIcon from "../images/calendar_icon.png";
 import Lunch from "../components/Lunch";
 import LunchDeets from "../components/LunchDeets";
-import Calendar from "../components/Calendar";
-import Takeout from "../components/Takeout";
-import { Link } from 'react-router-dom';
+import Footer from "../components/Footer";
+// import Calendar from "../components/Calendar";
+// import Takeout from "../components/Takeout";
+// import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -22,15 +23,7 @@ const Home = () => {
         <section className="lunch-today"><LunchDeets /></section>
         {/* <section className="lunch-today"></section> */}
       </div>
-      
-      <div className="bottom-buttons">
-        <Link to="calendar" rel="noreferrer" element ={<Calendar />}>
-          <img className="shopping-bag" src={CalIcon} alt="calendar icon" />
-        </Link>
-        <Link to="takeout" rel="noreferrer" element ={<Takeout />}>
-          <img className="shopping-bag" src={BagIcon} alt="take out icon"/>
-        </Link>
-      </div>
+      <Footer />
     </>
   );
 }

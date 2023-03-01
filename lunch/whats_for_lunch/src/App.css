@@ -34,13 +34,23 @@ body {
   padding-top: 34vh;
 }
 
-.shopping-bag {
+.bag-icon {
+  width: 54px;
+  padding: 0px 8px;
+}
+
+.bag-icon:hover {
   width: 60px;
   padding: 0px 8px;
 }
 
-.calendar {
+.calendar-icon {
   width: 50px;
+  padding: 0px 8px;
+}
+
+.calendar-icon:hover {
+  width: 56px;
   padding: 0px 8px;
 }
 
