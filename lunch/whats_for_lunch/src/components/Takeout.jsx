@@ -4,15 +4,43 @@ import Footer from "./Footer";
 // import Bag from "../images/food_delivery_icon.png";
 // import Calendar from "../images/calendar_icon.png";
 import Chipotle from "../images/chipotle_logo_small.png";
+import Blaze from "../images/blaze_logo.png";
+import Cava from "../images/cava_logo.png";
+import Chopt from "../images/chopt.jpeg";
+import Panera from "../images/panera_logo.png";
+import Stickies from "../images/stickies_logo.png";
+
 
 
 class Takeout extends Component {
   render() {
     return (
       <>
+      <div className="container">
+      <section className="takeout-joints">
       <Link to="https://chipotle.com/order#menu" rel="noreferrer">
-        <img className="chipotle-logo" src={Chipotle} alt="Chipotle icon"></img>
+        <img className="chipotle-logo resto-logo" src={Chipotle} alt="Chipotle restaurant icon"></img>
       </Link>
+      <Link to="#" rel="noreferrer">
+        <img className="blaze-logo resto-logo" src={Blaze} alt="Blaze restaurant icon"></img>
+      </Link>
+      <Link to="#" rel="noreferrer">
+        <img className="cava-logo resto-logo" src={Cava} alt="Cava restaurant icon"></img>
+      </Link>
+      <Link to="#" rel="noreferrer">
+        <img className="chopt-logo resto-logo" src={Chopt} alt="Chopt restaurant icon"></img>
+      </Link>
+      <Link to="#" rel="noreferrer">
+        <img className="panera-logo resto-logo" src={Panera} alt="Panera restaurant icon"></img>
+      </Link>
+      <Link to="#" rel="noreferrer">
+        <img className="stickies-logo resto-logo" src={Stickies} alt="Stickies restaurant icon"></img>
+      </Link>
+      {/* <Link to="#" rel="noreferrer">
+        <img className="chipotle-logo resto-logo" src={Chipotle} alt="Chipotle icon"></img>
+      </Link> */}
+        </section>
+        </div>
       <Footer />
       </>
     );

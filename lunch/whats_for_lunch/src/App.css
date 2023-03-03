@@ -229,3 +229,51 @@ table {
   color: rgb(96, 126, 88);
   /* color:rgb(232, 48, 48); */
 }
+
+/* === takeout options === */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.takeout-joints {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 110px 110px;
+  margin-top: 60px;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.resto-logo {
+  width: 100px;
+  place-self: center;
+}
+
+.chipotle-logo {
+  /* margin-bottom: 14px; */
+  place-self: center;
+}
+
+.blaze-logo {
+  width: 102px;
+  place-self: center;
+}
+
+.cava-logo {
+  /* margin-bottom: 45px; */
+  place-self: center;
+}
+
+.chopt-logo {
+  place-self: center;
+}
+
+.panera-logo {
+  place-self: center;
+}
+
+.stickies-logo {
+  place-self: center;
+}
