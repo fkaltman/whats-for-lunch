@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Header from "./Header";
-import Footer from "./Footer";
+import Footer2 from "./Footer2";
 import Chipotle from "../images/chipotle_logo_small.png";
 import Blaze from "../images/blaze_logo.png";
 import Cava from "../images/cava_logo.png";
@@ -41,7 +41,7 @@ class Takeout extends Component {
       </Link> */}
         </section>
         </div>
-      <Footer />
+      <Footer2 />
       </>
     );
   }
