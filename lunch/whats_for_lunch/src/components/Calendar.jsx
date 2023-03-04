@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Swal from "sweetalert2";
+import Header from "../components/Header";
+import Footer2 from "../components/Footer2";
 import { useState } from "react"
 
 
@@ -24,6 +26,7 @@ function Calendar(){
 
     return (
       <>
+        <Header />
         <div id="wrapOverall">
           <div id="calendar">
             <table>
@@ -99,7 +102,8 @@ function Calendar(){
         </div>
         {/* <div className="container d-flex justify-content-center" style={{marginTop: 90}}>
              <button onClick={this.showAlert} className="btn btn-primary btn-lg">Show Alert</button>
-          </div> */}
+            </div> */}
+            <Footer2 />
       </>
     )
   }
