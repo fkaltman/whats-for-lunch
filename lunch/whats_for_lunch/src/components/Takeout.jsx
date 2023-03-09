@@ -8,7 +8,7 @@ import Cava from "../images/cava_logo.png";
 import Chopt from "../images/chopt.jpeg";
 import Panera from "../images/panera_logo.png";
 import Stickies from "../images/stickies_logo.png";
-
+import Grubhub from "../images/grubhub_logo.png";
 
 
 class Takeout extends Component {
@@ -21,26 +21,28 @@ class Takeout extends Component {
       <Link to="https://chipotle.com/order#menu" rel="noreferrer">
         <img className="chipotle-logo resto-logo" src={Chipotle} alt="Chipotle restaurant icon"></img>
       </Link>
-      <Link to="#" rel="noreferrer">
+      <Link to="https://www.blazepizza.com/order" rel="noreferrer">
         <img className="blaze-logo resto-logo" src={Blaze} alt="Blaze restaurant icon"></img>
       </Link>
-      <Link to="#" rel="noreferrer">
+      <Link to="https://cava.com/" rel="noreferrer">
         <img className="cava-logo resto-logo" src={Cava} alt="Cava restaurant icon"></img>
       </Link>
-      <Link to="#" rel="noreferrer">
+      <Link to="https://www.choptsalad.com/order/locations" rel="noreferrer">
         <img className="chopt-logo resto-logo" src={Chopt} alt="Chopt restaurant icon"></img>
       </Link>
-      <Link to="#" rel="noreferrer">
+      <Link to="https://www.panerabread.com/en-us/start-an-order.html" rel="noreferrer">
         <img className="panera-logo resto-logo" src={Panera} alt="Panera restaurant icon"></img>
       </Link>
-      <Link to="#" rel="noreferrer">
+      <Link to="https://order.stickys.com/" rel="noreferrer">
         <img className="stickies-logo resto-logo" src={Stickies} alt="Stickies restaurant icon"></img>
       </Link>
-      {/* <Link to="#" rel="noreferrer">
-        <img className="chipotle-logo resto-logo" src={Chipotle} alt="Chipotle icon"></img>
-      </Link> */}
         </section>
         </div>
+        <section className="big-logos">
+      <Link to="https://www.grubhub.com/" rel="noreferrer">
+        <img className="grubhub-logo resto-logo-big" src={Grubhub} alt="Grubhub icon"></img>
+      </Link>
+        </section>
       <Footer2 />
       </>
     );

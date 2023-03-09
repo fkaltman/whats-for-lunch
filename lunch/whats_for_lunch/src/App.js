@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./App.css";
 import Home from "./components/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Calendar from "./components/Calendar";
 import Takeout from "./components/Takeout";
+// import Email from "./components/Email";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/takeout" element={<Takeout />} />
         <Route path="/calendar" element={<Calendar />} />
+        {/* <Route path="/contact" element={<Email />} /> */}
       </Routes>
     </BrowserRouter>
   );

@@ -1,20 +1,19 @@
 import React from 'react'
-// import Envelope from "../images/#"
 import { Link } from 'react-router-dom';
-import Home from "../components/Home";
+import Envelope from "../images/envelope.png";
+import Home from "./Home";
+import Email from './Email';
 
 const Footer2 = () => {
   return (
-    <>
       <div className="bottom-buttons2">
         <Link to="/" rel="noreferrer" element={<Home />}>
-          <div className="arrow-icon"> &larr; </div>
+          <div className="arrow"> &larr; </div>
         </Link>
-        {/* <Link to="takeout" rel="noreferrer" element ={<Takeout />}>
-          <img className="bag-icon" src={BagIcon} alt="take out icon"/>
-        </Link> */}
+        <Link to="/contact" rel="noreferrer" element ={<Email />}>
+          <img className="envelope-icon" src={Envelope} alt="envelope icon"/>
+        </Link>
       </div>
-    </>
   );
 }
 

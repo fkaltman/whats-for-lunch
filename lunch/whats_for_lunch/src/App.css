@@ -1,12 +1,44 @@
+
+
 /* DEFAULT SETTINGS */
-body, h1, h2, h3, td, th, tr, a, p, table {
-  margin : 0;
-	padding: 0;
+body,
+h1,
+h2,
+h3,
+td,
+th,
+tr,
+a,
+p,
+table {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
-	background: #f0eeee;
+  /* background: #f0eeee; */
+}
+
+.home-screen {
+  /* background-image: url("./images/iphone_frame.png");
+  background-color: #cccccc;
+  padding:10px;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+  position: relative; */
+}
+
+.home-screen-frame {
+  background-image: none;
+}
+
+.home-frame {
+  /* display: none; */
+  /* max-width:450px;
+  margin: 0 auto; */
 }
 
 /* 
@@ -19,7 +51,7 @@ body {
 }
 
 .wfl-logo {
-  margin-top:20px;
+  margin-top: 26px;
   width: 160px;
 }
 
@@ -38,36 +70,78 @@ body {
 .date {
 }
 
+/* === footer === */
+
 .bottom-buttons {
   display: flex;
   justify-content: center;
   padding-top: 16vh;
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+  left: 0px;
 }
 
 .bag-icon {
   width: 54px;
   padding: 0px 8px;
+  /* position: fixed; */
+  /* bottom: 10px; */
+  /* right: 126px; */
 }
 
 .bag-icon:hover {
   width: 60px;
-  padding: 0px 8px;
+  /* padding: 0px 8px; */
 }
 
 .calendar-icon {
   width: 50px;
   padding: 0px 8px;
+  /* position: fixed; */
+  /* bottom: 10px; */
+  /* left: 126px; */
 }
 
 .calendar-icon:hover {
   width: 56px;
-  padding: 0px 8px;
+  /* padding: 0px 8px; */
 }
 
 .App-link {
   /* color: #61dafb; */
 }
 
+/* === footer2 === */
+
+.bottom-buttons2 a:link {
+  text-decoration: none;
+  font-size: 40px;
+  position: fixed;
+  bottom: 10px;
+  left: 30px;
+}
+
+.bottom-buttons2 a:visited {
+  text-decoration: none;
+  color:#292929;
+}
+
+.bottom-buttons2 a:hover {
+  text-decoration: none;
+}
+
+.bottom-buttons2 a:active {
+  text-decoration: none;
+}
+
+.envelope-icon {
+  display: none;
+  width:40px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
 
 /* === talk bubbles === */
 
@@ -162,39 +236,39 @@ body {
 
 /* HEADER */
 header {
-	background: #292929;
-	height: 100px;
-	text-align: center;
-	box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .2);
+  background: #292929;
+  height: 100px;
+  text-align: center;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-	font: 3.5em/1em 'Lobster';
-	line-height: 100px;
-	color: #fff;
-	text-shadow: 0 0 10px #000;
+  font: 3.5em/1em "Lobster";
+  line-height: 100px;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
 }
 
 /* TABLE */
 table {
-	width: 360px;
-	height: 360px;
-	background: #ebebeb;
-	margin: 16px auto;
-	border-collapse: collapse;
-	box-shadow: 0 0 50px rgba(0, 0, 0, .2);
-	-webkit-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
-	-moz-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
-	-o-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  width: 360px;
+  height: 360px;
+  background: #ebebeb;
+  margin: 16px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
 
 /* MONTH */
 .month {
-  display:flex;
-	background: cadetblue;
-	color: #fff;
-	font: 2em/1em arial;
-	height: 34px;
+  display: flex;
+  background: cadetblue;
+  color: #fff;
+  font: 2em/1em arial;
+  height: 34px;
   padding: 10px 0px 0px 4px;
 }
 
@@ -202,27 +276,27 @@ table {
 .weeks {
   display: flex;
   justify-content: space-around;
-	background: #fff;
-	height: 28px;
-	font: 1em/1em arial;
-	color: rgb(82, 80, 80);
-	text-align: center;
+  background: #fff;
+  height: 28px;
+  font: 1em/1em arial;
+  color: rgb(82, 80, 80);
+  text-align: center;
   padding-top: 10px;
 }
 
 /* DAYS */
 .week td {
-	height: 30px;
-	width: 50px;
-	text-align: center;
-	font: 500 1em/1em arial;
-	color: #212121;
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  font: 500 1em/1em arial;
+  color: #212121;
   padding-top: 15px;
 }
 
 .days:hover {
-	background: rgba(95, 158, 160, 0.533);
-	color: #fff;
+  background: rgba(95, 158, 160, 0.533);
+  color: #fff;
 }
 
 /*  === other days modal === */
@@ -247,7 +321,8 @@ table {
   justify-content: center;
 }
 
-.takeout-joints {  display: grid;
+.takeout-joints {
+  display: grid;
   align-items: center;
   grid-template-columns: 110px 110px;
   margin-top: 60px;
@@ -257,32 +332,59 @@ table {
 
 .resto-logo {
   width: 100px;
-  place-self: center;
+}
+
+.big-logos {
+  display: unset;
+  margin: 0 auto;
+}
+
+.resto-logo-big {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 6px;
+  width: 200px;
 }
 
 .chipotle-logo {
   /* margin-bottom: 14px; */
-  place-self: center;
 }
 
 .blaze-logo {
   width: 102px;
-  place-self: center;
 }
 
 .cava-logo {
   /* margin-bottom: 45px; */
-  place-self: center;
 }
 
 .chopt-logo {
-  place-self: center;
 }
 
 .panera-logo {
-  place-self: center;
 }
 
 .stickies-logo {
-  place-self: center;
 }
+
+
+/* == mqs == */
+
+@media (min-width: 400px) {
+  /* .home-frame {
+    display: inline-block;
+  } */
+
+.home-screen-frame {
+  background-image: url("./images/iphone_frame.png");
+  background-color: #cccccc;
+  padding:10px;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+}  
