@@ -8,7 +8,7 @@ import Cava from "../images/cava_logo.png";
 import Chopt from "../images/chopt.jpeg";
 import Panera from "../images/panera_logo.png";
 import Stickies from "../images/stickies_logo.png";
-import Grubhub from "../images/grubhub_logo.png";
+import Uber from "../images/uber_eats.png";
 
 
 class Takeout extends Component {
@@ -39,8 +39,8 @@ class Takeout extends Component {
         </section>
         </div>
         <section className="big-logos">
-      <Link to="https://www.grubhub.com/" rel="noreferrer">
-        <img className="grubhub-logo resto-logo-big" src={Grubhub} alt="Grubhub icon"></img>
+      <Link to="https://www.ubereats.com/" rel="noreferrer">
+        <img className="uber-eats-logo resto-logo-big" src={Uber} alt="Uber Eats icon"></img>
       </Link>
         </section>
       <Footer2 />

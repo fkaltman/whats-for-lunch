@@ -51,8 +51,8 @@ body {
 }
 
 .wfl-logo {
-  margin-top: 26px;
-  width: 160px;
+  margin-top: 40px;
+  width: 200px;
 }
 
 .wfl-title {
@@ -325,7 +325,7 @@ table {
   display: grid;
   align-items: center;
   grid-template-columns: 110px 110px;
-  margin-top: 60px;
+  margin-top: 50px;
   column-gap: 36px;
   row-gap: 15px;
 }
@@ -333,19 +333,19 @@ table {
 .resto-logo {
   width: 100px;
 }
-
+/* 
 .big-logos {
   display: unset;
   margin: 0 auto;
-}
+} */
 
 .resto-logo-big {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: 6px;
-  width: 200px;
+  margin-top: 50px;
+  width: 180px;
 }
 
 .chipotle-logo {
