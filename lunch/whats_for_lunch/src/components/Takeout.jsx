@@ -40,7 +40,7 @@ class Takeout extends Component {
         </div>
         <section className="big-logos">
       <Link to="https://www.ubereats.com/" rel="noreferrer">
-        <img className="uber-eats-logo resto-logo-big" src={Uber} alt="Uber Eats icon"></img>
+        <img className="uber-eats-logo resto-logo resto-logo-big" src={Uber} alt="Uber Eats icon"></img>
       </Link>
         </section>
       <Footer2 />
