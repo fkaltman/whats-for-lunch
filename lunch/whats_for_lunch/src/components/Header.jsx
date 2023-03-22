@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/wfl_yellow_flat.jpg";
+import Logo from "../images/wfl_yellow_peak.png";
 
 const Header = () => {
   return (
