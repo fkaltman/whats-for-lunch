@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Header from "./Header";
+// import Header from "./Header";
 import Footer2 from "./Footer2";
 import Chipotle from "../images/chipotle_logo_small.png";
 import Blaze from "../images/blaze_logo.png";
@@ -15,8 +15,9 @@ class Takeout extends Component {
   render() {
     return (
       <>
-        <Header />
-      <div className="takeout-container">
+        {/* <Header /> */}
+        <p className="other-food">**Links to takeout nearby**</p>
+        <div className="takeout-container">
       <section className="takeout-joints">
       <Link to="https://chipotle.com/order#menu" rel="noreferrer">
         <img className="chipotle-logo resto-logo" src={Chipotle} alt="Chipotle restaurant icon"></img>
@@ -43,6 +44,7 @@ class Takeout extends Component {
         <img className="uber-eats-logo resto-logo resto-logo-big" src={Uber} alt="Uber Eats icon"></img>
       </Link>
         </section>
+
       <Footer2 />
       </>
     );

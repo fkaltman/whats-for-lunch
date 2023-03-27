@@ -2,7 +2,6 @@ import React from "react";
 import Swal from "sweetalert2";
 import Header from "../components/Header";
 import Footer2 from "../components/Footer2";
-// import { useState } from "react"
 
 
 // class Calendar extends Component {
@@ -192,18 +191,9 @@ function Calendar(){
     })
   }
 
-  // const showAlert24 = () => {
-  //   Swal.fire({
-  //     title: 'Some other food',
-  //     html: 'stuff',
-  //     footer: "Wednesday, March #"
-  //   })
-
-
-
     return (
       <>
-        <Header />
+        {/* <Header /> */}
         <div id="wrapOverall">
           <div id="calendar">
             <table>
