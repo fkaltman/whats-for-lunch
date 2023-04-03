@@ -39,11 +39,6 @@ body {
   margin: 0 auto; */
 }
 
-/* 
-.App {
-  text-align: center;
-} */
-
 .logo-header {
   text-align: center;
 }
@@ -67,7 +62,8 @@ body {
   margin-right: 40px;
 }
 
-.date {
+.red {
+  color:red !important;
 }
 
 /* === footer === */
@@ -161,8 +157,8 @@ body {
 
 .talk-bubble2 {
   background: radial-gradient(circle, #9be2f0 0%, #8cd9e8 50%);
-  margin: 110px 0px 0px 164px;
-  padding: 10px 0px 10px 30px;
+  margin: 110px 0px 0px 130px;
+  padding: 10px 0px 10px 60px;
   /* width: 190px; */
   width: 150px;
 }
