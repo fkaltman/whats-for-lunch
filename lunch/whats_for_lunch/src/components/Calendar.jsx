@@ -8,187 +8,187 @@ function Calendar(){
 
   const showAlert1 = () => {
     Swal.fire({
-      title: 'Chicken Francaise',
+      title: 'Blackened Chicken',
       html: '',
-      footer: "Monday, April 3<sub>rd</sub>"
+      footer: "Monday, May 1<sub>st</sub>"
     })
   }
 
   const showAlert2 = () => {
     Swal.fire({
-      title: 'Baja Salad',
+      title: 'Shrimp Scampi',
       html: '',
-      footer: "Tuesday, April 4<sub>th<sub>"
+      footer: "Tuesday, May 2<sub>nd<sub>"
     })
   }
 
   const showAlert3 = () => {
     Swal.fire({
-      title: 'Roast Beef with Gravy',
+      title: 'Paninis',
       html: '',
-      footer: "Wednesday, April 5<sub>th</sub>"
+      footer: "Wednesday, May 3<sub>rd</sub>"
     })
   }
 
   const showAlert4 = () => {
     Swal.fire({
-      title: 'Panko Chicken',
+      title: 'Red Robin',
       html: '',
-      footer: "Thursday, April 6<sub>th</sub"
+      footer: "Thursday, May 4<sub>th</sub"
     })
   }
 
-  // const showAlert5 = () => {
-  //   Swal.fire({
-  //     title: 'Chicken Teriyaki',
-  //     html: '',
-  //     footer: "Tuesday, April 7<sub>th</sub"
-  //   })
-  // }
+  const showAlert5 = () => {
+    Swal.fire({
+      title: 'Panko Chicken',
+      html: '',
+      footer: "Friday, May 5<sub>th</sub"
+    })
+  }
 
   const showAlert6 = () => {
     Swal.fire({
-      title: 'Grilled Lemon Chicken',
+      title: 'Turning Point',
       html: '',
-      footer: "Monday, April 10<sub>th</sub"
+      footer: "Monday, May 8<sub>th</sub"
     })
   }
 
   const showAlert7 = () => {
     Swal.fire({
-      title: 'Grilled Salmon',
+      title: 'Taco Bar',
       html: '',
-      footer: "Tuesday, April 11<sub>th</sub>"
+      footer: "Tuesday, May 9<sub>th</sub>"
     })
   }
 
   const showAlert8 = () => {
     Swal.fire({
-      title: 'Chicken Parmesan',
+      title: 'Penne Vodka & Sausage',
       html: '',
-      footer: "Wednesday, April 12<sub>th</sub>"
+      footer: "Wednesday, May 10<sub>th</sub>"
     })
   }
 
   const showAlert9 = () => {
     Swal.fire({
-      title: 'Cape Cod Salad',
+      title: 'Chicken Cordon Bleu',
       html: '',
-      footer: "Thursday, April 13<sub>th</sub>"
+      footer: "Thursday, May 11<sub>th</sub>"
     })
   }
 
   const showAlert10 = () => {
     Swal.fire({
-      title: 'Jerk Chicken',
-      html: 'with rice, beans, & plantains',
-      footer: "Friday, April 14<sub>th</sub>"
+      title: 'Teriyaki Salmon',
+      html: '',
+      footer: "Friday, May 12<sub>th</sub>"
     })
   }
 
   const showAlert11 = () => {
     Swal.fire({
-      title: 'Sandwich Day',
+      title: 'Jerk Chicken',
       html: '',
-      footer: "Monday, April 17<sub>th</sub>"
+      footer: "Monday, May 15<sub>th</sub>"
     })
   }
 
   const showAlert12 = () => {
     Swal.fire({
-      title: 'Meatball Stuffed Shells',
+      title: 'Baja Salad',
       html: '',
-      footer: "Tuesday, April 18<sub>th</sub>"
+      footer: "Tuesday, May 16<sub>th</sub>"
     })
   }
 
   const showAlert13 = () => {
     Swal.fire({
-      title: 'Meat Lasagna',
+      title: 'Chicken Marsala',
       html: '',
-      footer: "Wednesday, April 19<sub>th</sub>"
+      footer: "Wednesday, May 17<sub>th</sub>"
     })
   }
 
   const showAlert14 = () => {
     Swal.fire({
-      title: 'Chili Bar',
+      title: 'Taquitos & Rice',
       html: '',
-      footer: "Thursday, April 20<sub>th</sub>"
+      footer: "Thursday, May 18<sub>th</sub>"
     })
   }
 
   const showAlert15 = () => {
     Swal.fire({
-      title: 'Fish & Chips',
+      title: 'Chick-Fil-A',
       html: '',
-      footer: "Friday, April 21<sub>st</sub>"
+      footer: "Friday, May 19<sub>th</sub>"
     })
   }
 
   const showAlert16 = () => {
     Swal.fire({
-      title: 'Chicken Cutlet',
+      title: 'Sandwich Day',
       html: '',
-      footer: "Monday, April 24<sub>th</sub>"
+      footer: "Monday, May 22<sub>th</sub>"
     })
   }
 
   const showAlert17 = () => {
     Swal.fire({
-      title: 'Corn Flake Crusted Chicken',
+      title: 'Cobb Salad',
       html: '',
-      footer: "Tuesday, April 25<sub>th</sub>"
+      footer: "Tuesday, May 23<sub>nd</sub>"
     })
   }
 
   const showAlert18 = () => {
     Swal.fire({
-      title: 'BBQ Ribs',
+      title: 'Chicken Quesadillas',
       html: '',
-      footer: "Wednesday, April 26<sub>th</sub>"
+      footer: "Wednesday, May 24<sub>th</sub>"
     })
   }
 
   const showAlert19 = () => {
     Swal.fire({
-      title: 'Meatball Parm',
+      title: 'Grilled Salmon',
       html: '',
-      footer: "Thursday, April 27<sub>th</sub>"
+      footer: "Thursday, May 25<sub>th</sub>"
     })
   }
 
   const showAlert20 = () => {
     Swal.fire({
-      title: 'Chicken Souvlaki',
+      title: 'Wings, Fries, & Salad',
       html: '',
-      footer: "Friday, April 28<sub>th</sub>"
+      footer: "Friday, May 26<sub>th</sub>"
     })
   }
 
-  // const showAlert21 = () => {
-  //   Swal.fire({
-  //     title: 'Panini Day',
-  //     html: '',
-  //     footer: "Wednesday, March 29<sub>th</sub>"
-  //   })
-  // }
+  const showAlert21 = () => {
+    Swal.fire({
+      title: 'Panko Chicken',
+      html: '',
+      footer: "Wednesday, May 29<sub>th</sub>"
+    })
+  }
 
-  // const showAlert22 = () => {
-  //   Swal.fire({
-  //     title: 'Chicken Tortilla Soup',
-  //     html: '',
-  //     footer: "Thursday, March 30<sub>th</sub>"
-  //   })
-  // }
+  const showAlert22 = () => {
+    Swal.fire({
+      title: 'Baked Ziti & Meatballs',
+      html: '',
+      footer: "Thursday, May 31<sub>th</sub>"
+    })
+  }
 
-  // const showAlert23 = () => {
-  //   Swal.fire({
-  //     title: 'The Halal Guys',
-  //     html: '',
-  //     footer: "Wednesday, March 31<sub>st</sub>"
-  //   })
-  // }
+  const showAlert23 = () => {
+    Swal.fire({
+      title: 'Cape Cod Salad',
+      html: '',
+      footer: "Wednesday, May 31<sub>st</sub>"
+    })
+  }
 
   const date = (new Date().getDate());
   // const date = 3;
@@ -200,7 +200,7 @@ function Calendar(){
           <div id="calendar">
             <table>
               <div id="month">
-                <th className="month" colspan="7">APRIL</th>
+                <th className="month" colspan="7">MAY</th>
               </div>
 
               <div id="weeks">
@@ -218,58 +218,57 @@ function Calendar(){
               <div id="days">
                 <tr className="week1 week">
                   <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td className="days grey-day" id="day4">1</td>
+                  <td onClick={showAlert1} className= {`days hover-day ${date === 1 ? 'red' : 'black'}`}>1</td>
+                  <td onClick={showAlert2} className= {`days hover-day ${date === 2 ? 'red' : 'black'}`}>2</td>
+                  <td onClick={showAlert3} className= {`days hover-day ${date === 3 ? 'red' : 'black'}`}>3</td>
+                  <td onClick={showAlert4} className= {`days hover-day ${date === 4 ? 'red' : 'black'}`}>4</td>
+                  <td onClick={showAlert5} className= {`days hover-day ${date === 5 ? 'red' : 'black'}`}>5</td>
+                  <td className="days grey-day">6</td>
                 </tr>
 
-                {/* `string string ${expression} string string` */}
-
                 <tr className="week2 week">
-                  <td className="days grey-day" id="day5">2</td>
-                  <td onClick={showAlert1} className={`days hover-day ${date === 3 ? 'red' : 'black'}`} id='day3'>3</td>
-                  <td onClick={showAlert2} className="{`days hover-day ${date === 4 ? 'red' : 'black'}`}" id="day8">4</td>
-                  <td onClick={showAlert3} className="{`days hover-day ${date === 5 ? 'red' : 'black'}`}" id="day8">5</td>
-                  <td onClick={showAlert4} className="{`days hover-day ${date === 6 ? 'red' : 'black'}`}" id="day6">6</td>
-                  <td className="days grey-day" id="day5">7</td>
-                  {/* <td onClick={showAlert5} className="{`days hover-day ${date === 7 ? 'red' : 'black'}`}" id="day7">7</td> */}
-                  <td className="days grey-day" id="day11">8</td>
+                  <td className="days grey-day">7</td>
+                  <td onClick={showAlert6} className= {`days hover-day ${date === 8 ? 'red' : 'black'}`}>8</td>
+                  <td onClick={showAlert7} className= {`days hover-day ${date === 9 ? 'red' : 'black'}`}>9</td>
+                  <td onClick={showAlert8} className= {`days hover-day ${date === 10 ? 'red' : 'black'}`}>10</td>
+                  <td onClick={showAlert9} className= {`days hover-day ${date === 11 ? 'red' : 'black'}`}>11</td>
+                  <td onClick={showAlert10} className= {`days hover-day ${date === 12 ? 'red' : 'black'}`}>12</td>
+                  <td className="days grey-day">13</td>
                 </tr>
 
                 <tr className="week3 week">
-                  <td className="days grey-day" id="day12">9</td>
-                  <td onClick={showAlert6} className="{`days hover-day ${date === 10 ? 'red' : 'black'}`}" id="day9">10</td>
-                  <td onClick={showAlert7} className="{`days hover-day ${date ===11 ? 'red' : 'black'}`}" id="day10">11</td>
-                  <td onClick={showAlert8} className="{`days hover-day ${date === 12 ? 'red' : 'black'}`}" id="day15">12</td>
-                  <td onClick={showAlert9} className="{`days hover-day ${date === 13 ? 'red' : 'black'}`}" id="day13">13</td>
-                  <td onClick={showAlert10} className="{`days hover-day ${date === 14 ? 'red' : 'black'}`}" id="day14">14</td>
-                  <td className="days grey-day">15</td>
+                  <td className="days grey-day">14</td>
+                  <td onClick={showAlert11} className= {`days hover-day ${date === 10 ? 'red' : 'black'}`}>15</td>
+                  <td onClick={showAlert12} className= {`days hover-day ${date === 11 ? 'red' : 'black'}`}>16</td>
+                  <td onClick={showAlert13} className= {`days hover-day ${date === 12 ? 'red' : 'black'}`}>17</td>
+                  <td onClick={showAlert14} className= {`days hover-day ${date === 13 ? 'red' : 'black'}`}>18</td>
+                  <td onClick={showAlert15} className= {`days hover-day ${date === 14 ? 'red' : 'black'}`}>19</td>
+                  <td className="days grey-day">20</td>
                 </tr>
 
                 <tr className="week4 week">
-                  <td className="days grey-day">16</td>
-                  <td onClick={showAlert11} className="{`days hover-day ${date === 17 ? 'red' : 'black'}`}" id="day17">17</td>
-                  <td onClick={showAlert12} className="{`days hover-day ${date === 18 ? 'red' : 'black'}`}" id="day18">18</td>
-                  <td onClick={showAlert13} className="{`days hover-day ${date === 19 ? 'red' : 'black'}`}" id="day17">19</td>
-                  <td onClick={showAlert14} className="{`days hover-day ${date === 20 ? 'red' : 'black'}`}" id="day17">20</td>
-                  <td onClick={showAlert15} className="{`days hover-day ${date === 21 ? 'red' : 'black'}`}" id="day17">21</td>
-                  <td className="days grey-day">22</td>
+                  <td className="days grey-day">21</td>
+                  <td onClick={showAlert16} className= {`days hover-day ${date === 22 ? 'red' : 'black'}`}>22</td>
+                  <td onClick={showAlert17} className= {`days hover-day ${date === 18 ? 'red' : 'black'}`}>23</td>
+                  <td onClick={showAlert18} className= {`days hover-day ${date === 19 ? 'red' : 'black'}`}>24</td>
+                  <td onClick={showAlert19} className= {`days hover-day ${date === 20 ? 'red' : 'black'}`}>25</td>
+                  <td onClick={showAlert20} className= {`days hover-day ${date === 21 ? 'red' : 'black'}`}>26</td>
+                  <td className="days grey-day">27</td>
                 </tr>
 
                 <tr className="week5 week">
-                <td className="days grey-day">23</td>
-                  <td onClick={showAlert16} className="{`days hover-day ${date === 24 ? 'red' : 'black'}`}">24</td>
-                  <td onClick={showAlert17} className="{`days hover-day ${date === 25 ? 'red' : 'black'}`}">25</td>
-                  <td onClick={showAlert18} className="{`days hover-day ${date === 26 ? 'red' : 'black'}`}">26</td>
-                  <td onClick={showAlert19} className="{`days hover-day ${date === 27 ? 'red' : 'black'}`}">27</td>
-                  <td onClick={showAlert20} className="{`days hover-day ${date === 28 ? 'red' : 'black'}`}">28</td>
+                <td className="days grey-day">28</td>
                   <td className="days grey-day">29</td>
+                  <td onClick={showAlert21} className= {`days hover-day ${date === 25 ? 'red' : 'black'}`}>30</td>
+                  <td onClick={showAlert22} className= {`days hover-day ${date === 26 ? 'red' : 'black'}`}>31</td>
+                  {/* <td onClick={showAlert19} className= {`days hover-day ${date === 27 ? 'red' : 'black'}`}>27</td> */}
+                  {/* <td onClick={showAlert20} className= {`days hover-day ${date === 28 ? 'red' : 'black'}`}>28</td> */}
+                  <td className="days grey-day">1</td>
+                  <td className="days grey-day">2</td>
+                  <td className="days grey-day">3</td>
                 </tr>
                
-                <tr className="week5 week">
+                {/* <tr className="week5 week">
                 <td className="days grey-day">30</td>
                   <td></td>
                   <td></td>
@@ -277,7 +276,7 @@ function Calendar(){
                   <td></td>
                   <td></td>
                   <td></td>
-                </tr>
+                </tr> */}
               </div>
             </table>
           </div>
@@ -285,7 +284,7 @@ function Calendar(){
         {/* <div className="container d-flex justify-content-center" style={{marginTop: 90}}>
              <button onClick={this.showAlert} className="btn btn-primary btn-lg">Show Alert</button>
             </div> */}
-            <Footer2 />
+            {/* <Footer2 /> */}
       </>
     )
   }

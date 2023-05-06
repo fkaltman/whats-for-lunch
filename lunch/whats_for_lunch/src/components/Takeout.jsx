@@ -16,7 +16,7 @@ class Takeout extends Component {
     return (
       <>
         {/* <Header /> */}
-        <p className="other-food">**Links to takeout nearby**</p>
+        {/* <p className="other-food">**Links to takeout nearby**</p> */}
         <div className="takeout-container">
       <section className="takeout-joints">
       <Link to="https://chipotle.com/order#menu" rel="noreferrer">

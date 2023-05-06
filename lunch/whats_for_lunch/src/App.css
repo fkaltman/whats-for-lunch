@@ -1,3 +1,9 @@
+/* hex 
+orange #FE4E00
+red #E9190F
+pink #FF0F80 */
+
+
 /* DEFAULT SETTINGS */
 body,
 h1,
@@ -17,6 +23,10 @@ body {
   font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
   /* background: #f0eeee; */
 }
+
+/* .main-buttons {
+  display: block;
+} */
 
 .home-screen {
   /* background-image: url("./images/iphone_frame.png");
@@ -45,7 +55,7 @@ body {
 
 .wfl-logo {
   margin-top: 30px;
-  width: 200px;
+  width: 216px;
   /* box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.1), 0 1.5px 6px rgba(0, 0, 0, 0.1); */
   box-shadow: 0 4px 4px -4px grey;
 }
@@ -53,6 +63,38 @@ body {
 .wfl-title {
   color: rgb(189, 171, 34);
 }
+
+/* === talk bubbles === */
+
+/* container */
+.container {
+  padding: 5% 5%;
+}
+
+.display-linebreak {
+  white-space: pre-line;
+}
+
+.round {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+/* talk bubble contents */
+.talktext {
+  padding: 1em;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.talktext p {
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+/* ===  where is this  ===  */
 
 .date,
 .meal-name {
@@ -63,7 +105,7 @@ body {
 }
 
 .red {
-  color:red !important;
+  color: red !important;
 }
 
 /* === footer === */
@@ -81,38 +123,105 @@ body {
 .bag-icon {
   width: 54px;
   padding: 0px 8px;
+  margin-left: 2px;
 }
 
-.bag-icon:hover {
+/* .bag-icon:hover {
   width: 60px;
-}
+} */
 
 .calendar-icon {
   width: 50px;
   padding: 0px 8px;
-}
+  margin-left: 4px;
 
-.calendar-icon:hover {
-  width: 56px;
 }
 
 .App-link {
   /* color: #61dafb; */
 }
 
-/* === footer2 === */
-
-.bottom-buttons2 a:link {
-  text-decoration: none;
-  /* font-size: 20px; */
-  position: fixed;
-  top: 24px;
-  right: 30px;
+.but-link {
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
+button {
+  border:#f7f4f4 !important;
+}
+
+.button-container {
+  justify-content: center;
+  display: flex;
+}
+
+.text-on-button {
+  
+}
+
+.home-buttons {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.4), 0 1.5px 6px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 5px 10px #888888; */
+  width: 270px;
+  height: 66px;
+  font-size: 19px;
+  border-radius: 40px;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.home-buttons a:link,
+.home-buttons a:visited,
+.home-buttons a:hover,
+.home-buttons a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.main-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 80px;
+}
+
+.todays-button {
+  background-color: #FF0F80;
+  background-image: linear-gradient(to right, #FF0F80 , #f74b9b);
+}
+
+.cal-button {
+  background-color: #E9190F;
+  background-image: linear-gradient(to right, #E9190F , #f13f36);
+}
+
+.month-on-button {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.takeout-button {
+  background-color: #FE4E00;
+  background-image: linear-gradient(to right, #FE4E00 , #f75d1b);
+}
+
+.date-container {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 12px;
+  /* margin-top: 5px; */
+}
+
+/* guessed this yellow */
 .bottom-buttons2 a:visited {
   text-decoration: none;
-  color: #292929;
+  color: #f6e247;
 }
 
 .bottom-buttons2 a:hover {
@@ -129,95 +238,6 @@ body {
   position: fixed;
   bottom: 20px;
   right: 30px;
-}
-
-/* === talk bubbles === */
-
-/* container */
-.container {
-  padding: 5% 5%;
-}
-
-.talk-bubble {
-  display: inline-block;
-  position: relative;
-  height: auto;
-  /* background-color: #8cd9e8; */
-  box-shadow: 0 1.5px 4px rgb(0 0 0 / 10%), 0 1.5px 6px rgb(0 0 0 / 10%) !important;
-  background-size: 100% 200%;
-  background-position: 0% 50%;
-}
-
-.talk-bubble1 {
-  background: radial-gradient(circle, #d2d0d0 0%, #d3d1d1 50%);
-  margin: 120px 0px 0px 30px;
-  padding: 10px 0px 10px 30px;
-  width: 200px;
-}
-
-.talk-bubble2 {
-  background: radial-gradient(circle, #9be2f0 0%, #8cd9e8 50%);
-  margin: 110px 0px 0px 130px;
-  padding: 10px 0px 10px 60px;
-  /* width: 190px; */
-  width: 150px;
-}
-
-.talk-bubble3 {
-  background: radial-gradient(circle, #9be2f0 0%, #8cd9e8 50%);
-  margin: 20px 0px 0px 145px;
-  padding: 10px 0px 10px 30px;
-  /* width: 216px; */
-  width: 170px;
-}
-
-.display-linebreak {
-  white-space: pre-line;
-}
-
-.round {
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-}
-
-.tri-right.left-in:after {
-  content: " ";
-  position: absolute;
-  width: 0;
-  height: 0;
-  left: -10px;
-  right: auto;
-  top: 4px;
-  bottom: auto;
-  border: 12px solid;
-  border-color: #d3d1d1 #d3d1d1 transparent transparent;
-}
-
-.tri-right.right-in:after {
-  content: " ";
-  position: absolute;
-  width: 0;
-  height: 0;
-  left: auto;
-  right: -10px;
-  top: 6px;
-  bottom: auto;
-  border: 12px solid;
-  border-color: #8cd9e8 transparent transparent #8cd9e8;
-}
-
-/* talk bubble contents */
-.talktext {
-  padding: 1em;
-  text-align: left;
-  line-height: 1.5em;
-}
-
-.talktext p {
-  /* remove webkit p margins */
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
 }
 
 /* === calendar styles === */
@@ -248,7 +268,7 @@ table {
   background: #ebebeb;
   margin: 16px auto;
   border-collapse: collapse;
-  box-shadow: 0 1.5px 4px rgba(0,0,0,0.1),0 1.5px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.1), 0 1.5px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* MONTH */
@@ -308,15 +328,15 @@ table {
 
 /* === takeout options === */
 
-.other-food {
+/* .other-food {
   display: flex;
   justify-content: center;
   font: 1em arial;
-  margin-top: 90px;
   color: #707070;
-}
+} */
 
 .takeout-container {
+  margin-top: 30px;
   display: flex;
   justify-content: center;
 }
