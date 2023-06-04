@@ -45,7 +45,7 @@ class Takeout extends Component {
       </Link>
         </section>
 
-      <Footer2 />
+      {/* <Footer2 /> */}
       </>
     );
   }

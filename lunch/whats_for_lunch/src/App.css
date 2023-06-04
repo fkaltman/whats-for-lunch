@@ -104,10 +104,6 @@ body {
   margin-right: 40px;
 }
 
-.red {
-  color: red !important;
-}
-
 /* === footer === */
 
 .bottom-buttons {
@@ -310,6 +306,10 @@ table {
 
 .grey-day {
   color: #707070 !important;
+}
+
+.red {
+  color: red !important;
 }
 
 /*  === other days modal === */

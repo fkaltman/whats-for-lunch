@@ -4,8 +4,6 @@ import Header from "../components/Header";
 import Footer2 from "../components/Footer2";
 
 
-function Calendar(){
-
   const showAlert1 = () => {
     Swal.fire({
       title: 'Blackened Chicken',
@@ -182,16 +180,17 @@ function Calendar(){
     })
   }
 
-  const showAlert23 = () => {
-    Swal.fire({
-      title: 'Cape Cod Salad',
-      html: '',
-      footer: "Wednesday, May 31<sub>st</sub>"
-    })
-  }
+const showAlert23 = () => {
+  Swal.fire({
+    title: 'Cape Cod Salad',
+    html: '',
+    footer: "Wednesday, May 31<sub>st</sub>"
+  })
+}
 
-  const date = (new Date().getDate());
-  // const date = 3;
+  function Calendar() {
+    const date = (new Date().getDate());
+    // const date = 3;
 
     return (
       <>
@@ -200,7 +199,7 @@ function Calendar(){
           <div id="calendar">
             <table>
               <div id="month">
-                <th className="month" colspan="7">MAY</th>
+                <th className="month">MAY</th>
               </div>
 
               <div id="weeks">
@@ -218,75 +217,66 @@ function Calendar(){
               <div id="days">
                 <tr className="week1 week">
                   <td></td>
-                  <td onClick={showAlert1} className= {`days hover-day ${date === 1 ? 'red' : 'black'}`}>1</td>
-                  <td onClick={showAlert2} className= {`days hover-day ${date === 2 ? 'red' : 'black'}`}>2</td>
-                  <td onClick={showAlert3} className= {`days hover-day ${date === 3 ? 'red' : 'black'}`}>3</td>
-                  <td onClick={showAlert4} className= {`days hover-day ${date === 4 ? 'red' : 'black'}`}>4</td>
-                  <td onClick={showAlert5} className= {`days hover-day ${date === 5 ? 'red' : 'black'}`}>5</td>
-                  <td className="days grey-day">6</td>
+                  <td onClick={showAlert1} className={`days hover-day ${date === 1 ? 'red' : 'black'}`}>1</td>
+                  <td onClick={showAlert2} className={`days hover-day ${date === 2 ? 'red' : 'black'}`}>2</td>
+                  <td onClick={showAlert3} className={`days hover-day ${date === 3 ? 'red' : 'black'}`}>3</td>
+                  <td onClick={showAlert4} className={`days hover-day ${date === 4 ? 'red' : 'black'}`}>4</td>
+                  <td onClick={showAlert5} className={`days hover-day ${date === 5 ? 'red' : 'black'}`}>5</td>
+                  {/* <td className="days grey-day">6</td> */}
+                  <td className={`days grey-day ${date === 6 ? 'red' : 'black'}`}>6</td>
                 </tr>
 
                 <tr className="week2 week">
                   <td className="days grey-day">7</td>
-                  <td onClick={showAlert6} className= {`days hover-day ${date === 8 ? 'red' : 'black'}`}>8</td>
-                  <td onClick={showAlert7} className= {`days hover-day ${date === 9 ? 'red' : 'black'}`}>9</td>
-                  <td onClick={showAlert8} className= {`days hover-day ${date === 10 ? 'red' : 'black'}`}>10</td>
-                  <td onClick={showAlert9} className= {`days hover-day ${date === 11 ? 'red' : 'black'}`}>11</td>
-                  <td onClick={showAlert10} className= {`days hover-day ${date === 12 ? 'red' : 'black'}`}>12</td>
+                  <td onClick={showAlert6} className={`days hover-day ${date === 8 ? 'red' : 'black'}`}>8</td>
+                  <td onClick={showAlert7} className={`days hover-day ${date === 9 ? 'red' : 'black'}`}>9</td>
+                  <td onClick={showAlert8} className={`days hover-day ${date === 10 ? 'red' : 'black'}`}>10</td>
+                  <td onClick={showAlert9} className={`days hover-day ${date === 11 ? 'red' : 'black'}`}>11</td>
+                  <td onClick={showAlert10} className={`days hover-day ${date === 12 ? 'red' : 'black'}`}>12</td>
                   <td className="days grey-day">13</td>
                 </tr>
 
                 <tr className="week3 week">
                   <td className="days grey-day">14</td>
-                  <td onClick={showAlert11} className= {`days hover-day ${date === 10 ? 'red' : 'black'}`}>15</td>
-                  <td onClick={showAlert12} className= {`days hover-day ${date === 11 ? 'red' : 'black'}`}>16</td>
-                  <td onClick={showAlert13} className= {`days hover-day ${date === 12 ? 'red' : 'black'}`}>17</td>
-                  <td onClick={showAlert14} className= {`days hover-day ${date === 13 ? 'red' : 'black'}`}>18</td>
-                  <td onClick={showAlert15} className= {`days hover-day ${date === 14 ? 'red' : 'black'}`}>19</td>
+                  <td onClick={showAlert11} className={`days hover-day ${date === 10 ? 'red' : 'black'}`}>15</td>
+                  <td onClick={showAlert12} className={`days hover-day ${date === 11 ? 'red' : 'black'}`}>16</td>
+                  <td onClick={showAlert13} className={`days hover-day ${date === 12 ? 'red' : 'black'}`}>17</td>
+                  <td onClick={showAlert14} className={`days hover-day ${date === 13 ? 'red' : 'black'}`}>18</td>
+                  <td onClick={showAlert15} className={`days hover-day ${date === 14 ? 'red' : 'black'}`}>19</td>
                   <td className="days grey-day">20</td>
                 </tr>
 
                 <tr className="week4 week">
                   <td className="days grey-day">21</td>
-                  <td onClick={showAlert16} className= {`days hover-day ${date === 22 ? 'red' : 'black'}`}>22</td>
-                  <td onClick={showAlert17} className= {`days hover-day ${date === 18 ? 'red' : 'black'}`}>23</td>
-                  <td onClick={showAlert18} className= {`days hover-day ${date === 19 ? 'red' : 'black'}`}>24</td>
-                  <td onClick={showAlert19} className= {`days hover-day ${date === 20 ? 'red' : 'black'}`}>25</td>
-                  <td onClick={showAlert20} className= {`days hover-day ${date === 21 ? 'red' : 'black'}`}>26</td>
+                  <td onClick={showAlert16} className={`days hover-day ${date === 22 ? 'red' : 'black'}`}>22</td>
+                  <td onClick={showAlert17} className={`days hover-day ${date === 23 ? 'red' : 'black'}`}>23</td>
+                  <td onClick={showAlert18} className={`days hover-day ${date === 24 ? 'red' : 'black'}`}>24</td>
+                  <td onClick={showAlert19} className={`days hover-day ${date === 25 ? 'red' : 'black'}`}>25</td>
+                  <td onClick={showAlert20} className={`days hover-day ${date === 26 ? 'red' : 'black'}`}>26</td>
                   <td className="days grey-day">27</td>
                 </tr>
 
                 <tr className="week5 week">
-                <td className="days grey-day">28</td>
+                  <td className="days grey-day">28</td>
                   <td className="days grey-day">29</td>
-                  <td onClick={showAlert21} className= {`days hover-day ${date === 25 ? 'red' : 'black'}`}>30</td>
-                  <td onClick={showAlert22} className= {`days hover-day ${date === 26 ? 'red' : 'black'}`}>31</td>
+                  <td onClick={showAlert21} className={`days hover-day ${date === 25 ? 'red' : 'black'}`}>30</td>
+                  <td onClick={showAlert22} className={`days hover-day ${date === 26 ? 'red' : 'black'}`}>31</td>
                   {/* <td onClick={showAlert19} className= {`days hover-day ${date === 27 ? 'red' : 'black'}`}>27</td> */}
                   {/* <td onClick={showAlert20} className= {`days hover-day ${date === 28 ? 'red' : 'black'}`}>28</td> */}
                   <td className="days grey-day">1</td>
                   <td className="days grey-day">2</td>
                   <td className="days grey-day">3</td>
                 </tr>
-               
-                {/* <tr className="week5 week">
-                <td className="days grey-day">30</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr> */}
+              
               </div>
             </table>
           </div>
         </div>
-        {/* <div className="container d-flex justify-content-center" style={{marginTop: 90}}>
-             <button onClick={this.showAlert} className="btn btn-primary btn-lg">Show Alert</button>
-            </div> */}
-            {/* <Footer2 /> */}
+        {/* <Footer2 /> */}
       </>
     )
   }
+
+  
 
 export default Calendar;
