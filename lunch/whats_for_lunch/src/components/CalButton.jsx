@@ -11,7 +11,7 @@ const CalButton = () => {
     <div className="button-container">
     <button className="cal-button home-buttons">
        <Link className="but-link" to="calendar" rel="noreferrer" element = {<Calendar />}>
-       <img className="calendar-icon" src={CalIcon} alt="calendar icon" /> <span className="text-on-button">MAY</span>
+       <img className="calendar-icon" src={CalIcon} alt="calendar icon" /> <span className="text-on-button">&nbsp;&nbsp;JUNE</span>
        </Link>
       </button>
       </div>

@@ -208,7 +208,7 @@ button {
 .date-container {
   border: 2px solid #fff;
   border-radius: 30px;
-  padding: 10px;
+  padding: 8px 12px;
   margin-right: 10px;
   margin-left: 12px;
   /* margin-top: 5px; */
@@ -270,8 +270,8 @@ table {
 /* MONTH */
 .month {
   display: flex;
-  background: cadetblue;
-  color: #98b6b7;
+  background: #ff0f7fc8;
+  color: #fff;
   font: 2em/1em arial;
   height: 34px;
   padding: 10px 0px 0px 4px;
