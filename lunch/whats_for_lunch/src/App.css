@@ -154,18 +154,17 @@ button {
   flex-direction: column;
   gap: 22px;
   margin-top: 34px;
-  /* justify-content: flex-start; */
+  justify-content: flex-start;
 }
 
 .todays-button {
-  /* color: #FF0F80; */
   color: #595858;
-  /* background-image: linear-gradient(to right, #FF0F80 , #f74b9b); */
+  background-color: inherit;
 }
 
 .cal-button {
   color: #e9190f;
-  /* background-image: linear-gradient(to right, #E9190F , #f13f36); */
+  background-color: inherit;
 }
 
 .month-on-button {
@@ -176,7 +175,6 @@ button {
 .takeout-button {
   color: #fe4e00;
   background-color: inherit;
-  /* background-image: linear-gradient(to right, #FE4E00 , #f75d1b); */
 }
 
 /* only used if home page shows the number of "today's" date */
