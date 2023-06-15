@@ -1,8 +1,8 @@
 /* hex 
 orange #FE4E00
+lighter orange
 red #E9190F
 pink #FF0F80 */
-
 
 /* DEFAULT SETTINGS */
 body,
@@ -21,32 +21,10 @@ table {
 
 body {
   font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
-  /* background: #f0eeee; */
-}
-
-/* .main-buttons {
-  display: block;
-} */
-
-.home-screen {
-  /* background-image: url("./images/iphone_frame.png");
-  background-color: #cccccc;
-  padding:10px;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover
-  position: relative; */
-}
-
-.home-screen-frame {
-  background-image: none;
-}
-
-.home-frame {
-  /* display: none; */
-  /* max-width:450px;
-  margin: 0 auto; */
+  background-image: url("images/hansel.jpg");
+  /* background-position: center; */
+  /* background-size: cover; */
+  background-size: 100%;
 }
 
 .logo-header {
@@ -56,7 +34,6 @@ body {
 .wfl-logo {
   margin-top: 30px;
   width: 216px;
-  /* box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.1), 0 1.5px 6px rgba(0, 0, 0, 0.1); */
   box-shadow: 0 4px 4px -4px grey;
 }
 
@@ -117,24 +94,15 @@ body {
 }
 
 .bag-icon {
-  width: 54px;
+  width: 32px;
   padding: 0px 8px;
   margin-left: 2px;
 }
 
-/* .bag-icon:hover {
-  width: 60px;
-} */
-
 .calendar-icon {
-  width: 50px;
+  width: 28px;
   padding: 0px 8px;
   margin-left: 4px;
-
-}
-
-.App-link {
-  /* color: #61dafb; */
 }
 
 .but-link {
@@ -145,7 +113,7 @@ body {
 }
 
 button {
-  border:#f7f4f4 !important;
+  border: none;
 }
 
 .button-container {
@@ -153,19 +121,16 @@ button {
   display: flex;
 }
 
-.text-on-button {
-  
-}
-
 .home-buttons {
   display: flex;
   align-items: center;
-  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.4), 0 1.5px 6px rgba(0, 0, 0, 0.4);
+  justify-content: flex-start;
+  /* box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.4), 0 1.5px 6px rgba(0, 0, 0, 0.4); */
   /* box-shadow: 5px 10px #888888; */
-  width: 270px;
-  height: 66px;
-  font-size: 19px;
-  border-radius: 40px;
+  /* width: 270px; */
+  /* height: 46px; */
+  font-size: 24px;
+  /* border-radius: 40px; */
   letter-spacing: 0px;
   color: white;
 }
@@ -175,24 +140,32 @@ button {
 .home-buttons a:hover,
 .home-buttons a:active {
   text-decoration: none;
-  color: white;
+  color: #595858;
+}
+
+
+.home-buttons a:hover {
+  color: #FE4E00;
+  font-size: 25px;
 }
 
 .main-buttons {
   display: flex;
   flex-direction: column;
   gap: 22px;
-  margin-top: 80px;
+  margin-top: 34px;
+  /* justify-content: flex-start; */
 }
 
 .todays-button {
-  background-color: #FF0F80;
-  background-image: linear-gradient(to right, #FF0F80 , #f74b9b);
+  /* color: #FF0F80; */
+  color: #595858;
+  /* background-image: linear-gradient(to right, #FF0F80 , #f74b9b); */
 }
 
 .cal-button {
-  background-color: #E9190F;
-  background-image: linear-gradient(to right, #E9190F , #f13f36);
+  color: #e9190f;
+  /* background-image: linear-gradient(to right, #E9190F , #f13f36); */
 }
 
 .month-on-button {
@@ -201,18 +174,19 @@ button {
 }
 
 .takeout-button {
-  background-color: #FE4E00;
-  background-image: linear-gradient(to right, #FE4E00 , #f75d1b);
+  color: #fe4e00;
+  background-color: inherit;
+  /* background-image: linear-gradient(to right, #FE4E00 , #f75d1b); */
 }
 
-.date-container {
-  border: 2px solid #fff;
+/* only used if home page shows the number of "today's" date */
+/* .date-container {
+  border: 1.25px solid #FF0F80;
   border-radius: 30px;
-  padding: 8px 12px;
+  padding: 5px 10px;
   margin-right: 10px;
   margin-left: 12px;
-  /* margin-top: 5px; */
-}
+} */
 
 /* guessed this yellow */
 .bottom-buttons2 a:visited {
@@ -270,7 +244,7 @@ table {
 /* MONTH */
 .month {
   display: flex;
-  background: #ff0f7fc8;
+  background: #f77e49;
   color: #fff;
   font: 2em/1em arial;
   height: 34px;
@@ -328,15 +302,23 @@ table {
 
 /* === takeout options === */
 
-/* .other-food {
+.takeouts-page {
+  background-color: rgba(249, 246, 246, 0.728) !important;
+  background-size: 100% 100% !important;
+  padding-bottom: 470px;
+  padding-top: 10px;
+}
+
+.other-food {
   display: flex;
   justify-content: center;
-  font: 1em arial;
-  color: #707070;
-} */
+  font: 1.2em arial;
+  margin-top: 20px;
+  color: #4a4949;
+}
 
 .takeout-container {
-  margin-top: 30px;
+  margin-top: 46px;
   display: flex;
   justify-content: center;
 }
@@ -345,7 +327,7 @@ table {
   display: grid;
   align-items: center;
   grid-template-columns: 110px 110px;
-  margin-top: 48px;
+  margin-top: 20px;
   column-gap: 36px;
   row-gap: 15px;
 }
@@ -364,45 +346,60 @@ table {
 }
 
 /* == mqs == */
-
 @media (min-width: 420px) {
-  body {
-    background-color: rgb(243, 227, 230);
-  }
-
   #calendar {
     margin-top: 50px;
   }
-
-  .takeout-joints {
-    column-gap: 150px;
-    row-gap: 40px;
-  }
-
-  .home-screen-frame {
-    background-image: url("./images/iphone_frame.png");
-    background-color: #f7f4f4;
-    padding: 10px;
-    width: 368px;
-    height: 750px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border-radius: 54px;
-    margin: 10vh auto;
-  }
-
+  
   .resto-logo-big {
     margin-top: 66px;
   }
-
+  
   .bottom-buttons {
     position: inherit;
     padding-top: 34vh;
   }
-
+  
   .wfl-logo {
     margin-top: 70px;
   }
 }
+
+@media (min-width: 522px) {
+    .takeout-joints {
+      column-gap: 50px;
+      row-gap: 40px;
+    }
+
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("images/wfl_unsplash_desktop_edit_louis_hansel.jpg");
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .other-food {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7em;
+    margin-top: 20px;
+  }
+
+  .takeout-joints {
+    column-gap: 100px;
+  }
+}
+
+@media (min-width: 990px) {
+  body {
+    background-position: center top;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+

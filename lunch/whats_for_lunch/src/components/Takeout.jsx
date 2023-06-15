@@ -14,9 +14,9 @@ import Uber from "../images/uber_eats.png";
 class Takeout extends Component {
   render() {
     return (
-      <>
+      <div className="takeouts-page">
         {/* <Header /> */}
-        {/* <p className="other-food">**Links to takeout nearby**</p> */}
+        <p className="other-food">Click an icon to order takeout nearby</p>
         <div className="takeout-container">
       <section className="takeout-joints">
       <Link to="https://chipotle.com/order#menu" rel="noreferrer">
@@ -46,7 +46,7 @@ class Takeout extends Component {
         </section>
 
       {/* <Footer2 /> */}
-      </>
+      </div>
     );
   }
 }

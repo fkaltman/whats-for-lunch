@@ -30,7 +30,8 @@ const LunchButton = () => {
         onClick={() => Swal.fire(showAlerts[dateNum])}
         className="todays-button home-buttons days hover-day"
       >
-        <span class="date-container">{dateNum}</span>TODAY'S LUNCH
+        {/* <span class="date-container">{dateNum}</span> */}
+        TODAY'S LUNCH
       </button>
     </div>
   );
