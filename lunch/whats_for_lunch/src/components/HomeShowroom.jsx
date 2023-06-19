@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Envelope from "../images/envelope.png";
-import Showroom from "../images/small_black_showroom70.png";
+import Showroom from "../images/small_yellow_showroom_icon.png";
 import Home from "./Home";
 import Email from './Email';
 
-const Footer2 = () => {
+const HomeShowroom = () => {
   return (
       <div className="bottom-buttons2">
         <Link to="/" rel="noreferrer" element={<Home />}>
@@ -19,4 +19,4 @@ const Footer2 = () => {
   );
 }
 
-export default Footer2;
+export default HomeShowroom;

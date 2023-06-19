@@ -105,6 +105,12 @@ body {
   margin-left: 4px;
 }
 
+.showroom-icon {
+  width: 70px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
 .but-link {
   display: flex;
   flex-flow: row no-wrap;
@@ -143,9 +149,9 @@ button {
   color: #595858;
 }
 
-
-.home-buttons a:hover {
-  color: #FE4E00;
+.home-buttons a:hover,
+.todays-button:hover {
+  color: #fe4e00;
   font-size: 25px;
 }
 
@@ -211,7 +217,7 @@ button {
 /* === calendar styles === */
 
 #calendar {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 /* HEADER */
@@ -348,27 +354,30 @@ table {
   #calendar {
     margin-top: 50px;
   }
-  
+
   .resto-logo-big {
     margin-top: 66px;
   }
-  
+
   .bottom-buttons {
     position: inherit;
     padding-top: 34vh;
   }
-  
+
   .wfl-logo {
-    margin-top: 70px;
+    margin-top: 30px;
+  }
+
+  #calendar {
+    margin-top: 20px;
   }
 }
 
 @media (min-width: 522px) {
-    .takeout-joints {
-      column-gap: 50px;
-      row-gap: 40px;
-    }
-
+  .takeout-joints {
+    column-gap: 50px;
+    row-gap: 40px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -379,7 +388,7 @@ table {
     background-size: 100%;
     background-repeat: no-repeat;
   }
-  
+
   .other-food {
     display: flex;
     justify-content: center;
@@ -400,4 +409,3 @@ table {
     background-repeat: no-repeat;
   }
 }
-

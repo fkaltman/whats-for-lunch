@@ -28,7 +28,7 @@ const LunchButton = () => {
     <div className="button-container">
       <button
         onClick={() => Swal.fire(showAlerts[dateNum])}
-        className="todays-button home-buttons days hover-day"
+        className="todays-button home-buttons days"
       >
         {/* <span class="date-container">{dateNum}</span> */}
         TODAY'S LUNCH

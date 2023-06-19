@@ -2,7 +2,7 @@ import React from "react";
 import Swal from "sweetalert2";
 import { showAlerts } from "../services/Meals.js";
 import Header from "../components/Header";
-import Footer2 from "../components/Footer2";
+import HomeShowroom from "./HomeShowroom";
 
 function Calendar() {
   const date = new Date().getDate();
@@ -11,6 +11,7 @@ function Calendar() {
   return (
     <>
       {/* <Header /> */}
+      <HomeShowroom />
       <div id="wrapOverall">
         <div id="calendar">
           <table>
@@ -119,10 +120,18 @@ function Calendar() {
                 >
                   16
                 </td>
-                <td className="days grey-day">17</td>
+                <td
+                  className={`days grey-day ${date === 17 ? "red" : "black"}`}
+                >
+                  17
+                </td>
               </tr>
               <tr className="week4 week">
-                <td className="days grey-day">18</td>
+                <td
+                  className={`days grey-day ${date === 18 ? "red" : "black"}`}
+                >
+                  18
+                </td>
                 <td
                   onClick={() => Swal.fire(showAlerts[19])}
                   className={`days hover-day ${date === 19 ? "red" : "black"}`}
@@ -153,10 +162,18 @@ function Calendar() {
                 >
                   23
                 </td>
-                <td className="days grey-day">24</td>
+                <td
+                  className={`days grey-day ${date === 24 ? "red" : "black"}`}
+                >
+                  24
+                </td>
               </tr>
               <tr className="week5 week">
-                <td className="days grey-day">25</td>
+                <td
+                  className={`days grey-day ${date === 25 ? "red" : "black"}`}
+                >
+                  25
+                </td>
                 <td
                   onClick={() => Swal.fire(showAlerts[26])}
                   className={`days hover-day ${date === 26 ? "red" : "black"}`}
@@ -187,13 +204,14 @@ function Calendar() {
                 >
                   30
                 </td>
-                <td className="days grey-day">1</td>
+                <td className={`days grey-day ${date === 1 ? "red" : "black"}`}>
+                  1
+                </td>
               </tr>
             </div>
           </table>
         </div>
       </div>
-      {/* <Footer2 /> */}
     </>
   );
 }
