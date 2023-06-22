@@ -9,13 +9,14 @@ import Chopt from "../images/chopt.jpeg";
 import Panera from "../images/panera_logo.png";
 import Stickies from "../images/stickies_logo.png";
 import Uber from "../images/uber_eats.png";
+import Home from "./Home";
 
 class Takeout extends Component {
   render() {
     return (
       <div className="takeouts-page">
         {/* <Header /> */}
-        <HomeShowroom />
+        <Link to="/" rel="noreferrer" className="close-x" element={<Home />}><div className="char-x">X</div></Link>
         <div className="takeout-container">
           <section className="takeout-joints">
             <Link to="https://chipotle.com/order#menu" rel="noreferrer">

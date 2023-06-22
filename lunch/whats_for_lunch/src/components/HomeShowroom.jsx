@@ -10,11 +10,7 @@ const HomeShowroom = () => {
       <div className="bottom-buttons2">
         <Link to="/" rel="noreferrer" element={<Home />}>
           <img className="showroom-icon" src={Showroom} alt="showroom icon"/>
-          {/* <div className="arrow"> &larr; </div> */}
         </Link>
-        {/* <Link to="/contact" rel="noreferrer" element ={<Email />}>
-          <img className="envelope-icon" src={Envelope} alt="envelope icon"/>
-        </Link> */}
       </div>
   );
 }

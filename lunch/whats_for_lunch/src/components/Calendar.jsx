@@ -1,8 +1,9 @@
 import React from "react";
 import Swal from "sweetalert2";
+import Header from "./Header";
+import Home from "./Home";
+import { Link } from 'react-router-dom';
 import { showAlerts } from "../services/Meals.js";
-import Header from "../components/Header";
-import HomeShowroom from "./HomeShowroom";
 
 function Calendar() {
   const date = new Date().getDate();
@@ -11,7 +12,7 @@ function Calendar() {
   return (
     <>
       {/* <Header /> */}
-      <HomeShowroom />
+      <Link to="/" rel="noreferrer" className="close-x" element={<Home />}><div className="char-x">X</div></Link>
       <div id="wrapOverall">
         <div id="calendar">
           <table>

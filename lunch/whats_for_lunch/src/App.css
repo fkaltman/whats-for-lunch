@@ -1,8 +1,4 @@
-/* hex 
-orange #FE4E00
-lighter orange
-red #E9190F
-pink #FF0F80 */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
 /* DEFAULT SETTINGS */
 body,
@@ -290,6 +286,26 @@ table {
   color: red !important;
 }
 
+.close-x {
+  font-family: 'Concert One', cursive;
+  text-decoration: none;
+  font-weight: bold;
+  color:rgba(0, 0, 0, 0.443);
+  font-size: 30px;
+  display:inline-block;
+    -webkit-transform:scale(1.2,1); /* Safari and Chrome */
+    -moz-transform:scale(1.2,1); /* Firefox */
+    -ms-transform:scale(1.2,1); /* IE 9 */
+    -o-transform:scale(1.2,1); /* Opera */
+    transform:scale(1.2,1); /* W3C */
+}
+
+.char-x {
+  margin-left: 30px;
+  margin-top: 16px;
+  
+}
+
 /*  === other days modal === */
 
 .swal2-styled.swal2-confirm {
@@ -316,12 +332,12 @@ table {
   display: flex;
   justify-content: center;
   font: 1.2em arial;
-  margin-top: 20px;
+  margin-top: 40px;
   color: #4a4949;
 }
 
 .takeout-container {
-  margin-top: 46px;
+  margin-top: 2px;
   display: flex;
   justify-content: center;
 }
