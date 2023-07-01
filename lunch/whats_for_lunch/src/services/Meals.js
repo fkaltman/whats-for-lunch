@@ -1,30 +1,28 @@
-
 // console.log(Swal.fire({ showAlerts[1].title, showAlerts[1].footer }));
 
-
-export const showAlerts =
-{
-  1: {title: 'Cape Cod Salad', footer: "Thursday, June 1st"},
-  2: {title: 'BTG BBQ', footer: "Friday, June 2nd"},
-  5: {title: 'Blackened Chicken with veggies', footer: "Monday, June 5th"},
-  6: {title: 'CHOP\'T', footer: "Tuesday, June 6th"},
-  7: {title: 'Paninis', footer: "Wednesday, June 7th"},
-  8: {title: 'Parm Chicken Cutlet', footer: "Thursday, June 8th"},
-  9: {title: 'Grilled Salmon with Fried Rice', footer: "Friday, June 9th"},
-  12: {title: 'Sweetgreen', footer: "Monday, June 12th"},
-  13: {title: 'Taco Bar', footer: "Tuesday, June 13th"},
-  14: {title: 'Flank Steak Salad', footer: "Wednesday, June 14th"},
-  15: {title: 'Cali Burger Bar', footer: "Thursday, June 15th"},
-  16: {title: 'Panko Chicken', footer: "Friday, June 16th"},
-  19: {title: 'Grilled Chicken w/ Sesame Salad', footer: "Monday, June 19th"},
-  20: {title: 'Cornflake Chicken w/ Mashed Taters', footer: "Tuesday, June 20th"},
-  21: {title: 'Sandwich Day', footer: "Wednesday, June 21st"},
-  22: {title: 'Shrimp Scampi', footer: "Thursday, June 22nd"},
-  23: {title: 'Chick-Fil-A', footer: "Friday, June 23rd"},
-  26: {title: 'Maria\'s Bowl', footer: "Monday, June 26th"},
-  27: {title: 'Salmon BLT', footer: "Tuesday, June 27th"},
-  28: {title: 'Chicken Cordon Bleu', footer: "Wednesday, June 28th"},
-  29: {title: 'Baja Salad', footer: "Thursday, June 29th"},
-  30: {title: 'BTG BBQ', footer: "Friday, June 30th"}
-}
-
+export const showAlerts = {
+  3: { title: "Sandwich day", footer: "Monday, July 3rd" },
+  5: { title: "Blackened Chicken & Veggies", footer: "Wednesday, July 5th" },
+  6: { title: "Sweetgreens", footer: "Thursday, July 6th" },
+  7: { title: "Chick-fil-a", footer: "Friday, July 7th" },
+  10: { title: "Chicken Masala & Mashed Taters", footer: "Monday, July 10th" },
+  11: { title: "🌮🌮🌮🌮", footer: "Tuesday, July 11th" },
+  12: { title: "Cali 🍔 Bar", footer: "Wednesday, July 12th" },
+  13: { title: "Grilled Salmon & Veggie Fried Rice", footer: "Thursday, July 13th" },
+  14: { title: "Flank Steak Salad", footer: "Friday, July 14th" },
+  17: { title: "Panko Chicken", footer: "Monday, July 17th" },
+  18: { title: "Paninis & salads", footer: "Tuesday, July 18th" },
+  19: { title: "Chicken Quesadillas", footer: "Wednesday, July 19th" },
+  20: {
+    title: "Bombay Hut",
+    footer: "Thursday, July 20th",
+  },
+  21: { title: "Flank Steak Salad", footer: "Friday, July 21st" },
+  24: { title: "Sweetgreens", footer: "Monday, July 24th" },
+  25: { title: "Maria's bowl (Qunioa, Chicken, Sweet taters, Avocado, etc.", footer: "Tuesday, July 25rd" },
+  26: { title: "Cornflake Chicken", footer: "Wednesday, July 26th" },
+  27: { title: "Chicken Cordon Bleu w/ Rice", footer: "Thursday, July 27th" },
+  28: { title: "🍔 BTG BBQ 🌭", footer: "Friday, July 28th" },
+  31: { title: "Meat & Veg Lasagnes", footer: "Monday, July 31st" }
+  // 1: { title: "BTG BBQ", footer: "Friday, July 1th" },
+};
