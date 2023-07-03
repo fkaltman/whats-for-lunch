@@ -116,6 +116,7 @@ function Calendar() {
                   17
                 </td>
                 <td
+                  onClick={() => Swal.fire(showAlerts[18])}
                   className={`days hover-day ${date === 18 ? "red" : "black"}`}
                 >
                   18
@@ -143,11 +144,13 @@ function Calendar() {
                 <tr className="week5 week">
                 <td className="days grey-day">23</td>
                 <td
+                  onClick={() => Swal.fire(showAlerts[24])}
                   className={`days hover-day ${date === 24 ? "red" : "black"}`}
                 >
                   24
                 </td>
                 <td
+                  onClick={() => Swal.fire(showAlerts[25])}
                   className={`days hover-day ${date === 25 ? "red" : "black"}`}
                 >
                   25
