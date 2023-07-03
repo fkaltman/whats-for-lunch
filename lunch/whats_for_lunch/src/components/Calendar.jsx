@@ -116,7 +116,7 @@ function Calendar() {
                   17
                 </td>
                 <td
-                  className={`days grey-day ${date === 18 ? "red" : "black"}`}
+                  className={`days hover-day ${date === 18 ? "red" : "black"}`}
                 >
                   18
                 </td>
@@ -143,12 +143,12 @@ function Calendar() {
                 <tr className="week5 week">
                 <td className="days grey-day">23</td>
                 <td
-                  className={`days grey-day ${date === 24 ? "red" : "black"}`}
+                  className={`days hover-day ${date === 24 ? "red" : "black"}`}
                 >
                   24
                 </td>
                 <td
-                  className={`days grey-day ${date === 25 ? "red" : "black"}`}
+                  className={`days hover-day ${date === 25 ? "red" : "black"}`}
                 >
                   25
                 </td>
@@ -180,18 +180,10 @@ function Calendar() {
                 >
                   31
                 </td>
-                <td className={`days grey-day ${date === 1 ? "red" : "black"}`}>
-                  1
-                </td>
-                <td className={`days grey-day ${date === 2 ? "red" : "black"}`}>
-                  2
-                </td>
-                <td className={`days grey-day ${date === 3 ? "red" : "black"}`}>
-                  3
-                </td>
-                <td className={`days grey-day ${date === 4 ? "red" : "black"}`}>
-                  4
-                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
               </tr>
             </div>
           </table>
