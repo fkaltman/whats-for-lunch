@@ -34,6 +34,6 @@ export const showAlerts = {
   //   imageHeight: 200,
   //   imageAlt: 'Custom image',footer: "Friday, July 28th" },
   // 1: { title: "BTG BBQ", footer: "Friday, July 1th" },
-  5: { title: "It's the weekend"}
+  // 5: { title: "It's the weekend"}
 };
 
