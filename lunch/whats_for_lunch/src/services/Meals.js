@@ -4,7 +4,7 @@ export const showAlerts = {
   1: { title: "Halal Guys", footer: "Tuesday, August 1st" },
   2: { title: "Parmesan Chicken Cutlets", text: "w/ penne vodka", footer: "Wednesday, August 2nd" },
   3: { title: "Sandwich day", footer: "Thursday, August 3rd" },
-  5: { title: "Blackened Chicken & Veggies", footer: "Friday, August 4th" },
+  4: { title: "Blackened Chicken & Veggies", footer: "Friday, August 4th" },
   // 6: { title: "Sweetgreens", footer: "Thursday, July 6th" },
   7: { title: "Sweetgreens", footer: "Monday, August 7th" },
   8: { title: "Chicken Cutlets & Mashed Taters", text: "w/ corn and salad", footer: "Tuesday, August 8th" },
@@ -34,6 +34,6 @@ export const showAlerts = {
   //   imageHeight: 200,
   //   imageAlt: 'Custom image',footer: "Friday, July 28th" },
   // 1: { title: "BTG BBQ", footer: "Friday, July 1th" },
-  // 31: { title: "It's the weekend"}
+  5: { title: "It's the weekend"}
 };
 

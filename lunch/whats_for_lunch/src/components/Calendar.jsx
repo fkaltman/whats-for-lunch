@@ -62,7 +62,8 @@ function Calendar() {
                 >
                   4
                 </td>
-                <td className="days grey-day">5</td>
+                <td onClick={() => Swal.fire(showAlerts[5])}
+                  className="days grey-day">5</td>
               </tr>
               {/* new week */}
               <tr className="week2 week">
