@@ -5,7 +5,7 @@ export const showAlerts = {
     title: "🍔 BBQ 🍔 ",
     imageUrl: "https://i.imgur.com/c8qugHI.jpg",
     imageWidth: 300,
-    imageHeight: 200,
+    imageHeight: 230,
     imageAlt: "Custom image",
     footer: "Friday, September 1st",
   },
