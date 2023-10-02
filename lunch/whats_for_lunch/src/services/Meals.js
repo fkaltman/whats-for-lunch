@@ -50,7 +50,7 @@ export const showAlerts = {
   //   footer: "Friday, October 29th"
   // }
   30: { title: "Shrimp Scampi", footer: "Monday, October 30th" },
-  31: { title: "Chicken Parm w/Penne", footer: "Tuesday, October 31st" },
+  31: { title: "Chicken Parm w/Penne", footer: "Tuesday, October 31st" }
 
   // 6: { title: "Sweetgreens", footer: "Thursday, October 6th" },
   // 7: { title: "Sweetgreens", footer: "Monday, October 7th" },

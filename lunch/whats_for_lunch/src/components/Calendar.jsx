@@ -34,12 +34,11 @@ function Calendar() {
               </tr>
             </div>
 
-            <div id="days">
+<div id="days">
               <tr className="week1 week">
                 <td></td>
                 <td
                   className="days grey-day">1</td>
-              </tr>
                 <td
                   onClick={() => Swal.fire(showAlerts[2])}
                   className={`days hover-day ${date === 2 ? "red" : "black"}`}
@@ -76,9 +75,6 @@ function Calendar() {
               {/* new week */}
               <tr className="week2 week">
               <td className="days grey-day">8</td>
-              {/* party emoji */}
-                {/* <td
-                  className="days grey-day">&#127881;</td> */}
                 <td
                   onClick={() => Swal.fire(showAlerts[9])}
                   className={`days hover-day ${date === 9 ? "red" : "black"}`}
@@ -206,6 +202,7 @@ function Calendar() {
               <td></td>
               <td></td>
               <td></td>
+                </tr>
                 
             </div>
           </table>
@@ -214,5 +211,6 @@ function Calendar() {
     </>
   );
 }
+
 
 export default Calendar;
