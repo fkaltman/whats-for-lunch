@@ -36,7 +36,6 @@ function Calendar() {
 
 <div id="days">
               <tr className="week1 week">
-                <td></td>
                 <td
                   className="days grey-day">1</td>
                 <td
