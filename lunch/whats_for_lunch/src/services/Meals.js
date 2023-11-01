@@ -10,84 +10,151 @@ export const showAlerts = {
   //   imageAlt: "Custom image",
   //   footer: "Friday, September 1st",
   // },
-  2: { title: "Chicken Masala", text: "w/ mashed potatos & veggies", footer: "Monday, October 2nd" },
-  3: { title: "Taco Bar", footer: "Tuesday, October 3rd" },
-  4: { title: "Paninis and salads", footer: "Wednesday, October 4th" },
-  5: { title: "Chicken Tortilla Soup", footer: "Thursday, October 5th" },
-  6: { title: "PF Chang's", text: "with chips & salads", footer: "Friday, October 6th" },
-  // 7: {
-  //   title: "Grilled Salmon",
-  //   text: "w/ sweet potatoes and salad",
-  //   footer: "Thursday, October 7th",
-  // },
-  // 8: { title: "Chick-fil-a", footer: "Friday, October 8th" },
-  9: { title: "Butternut raviloi in cream sauce", text: "with grilled chicken", footer: "Monday, October 9th" },
-  10: { title: "Chicken Parm Cutlets", text: "mac and cheese & roasted broccoli", footer: "Tuesday, October 10th" },
-  11: { title: "Grilled Shrimp Skewers", text: "Veggie fried rice", footer: "Wednesday, October 11th" },
-  12: { title: "Pecan panko crusted chicken", text: "w/ roasted root veggies", footer: "Thursday, October 12th" },
-  13: { title: "Smash 🍔", footer: "Friday, October 13th" },
-  // 14: { title: "Manager's conference today", footer: "Thursday, October 14th" },
-  // 15: { title: "Sandwiches and salads", footer: "Friday, October 15th" },
-  16: { title: "Chicken Fettucini Alfredo", footer: "Monday, October 16th" },
-  17: { title: "Blackened Chicken Quesadillas", footer: "Tuesday, October 17th" },
-  18: { title: "Grilled Salmon", text: "w/veggies & fried rice", footer: "Wednesday, October 18th" },
-  19: { title: "Bombay Hut", footer: "Thursday, October 19th" },
-  20: { title: "Cali-Burger Bar", footer: "Friday, October 20th" },
-  // 21: { title: "BBQ ribs", text: "with corn, potatoes & salad", footer: "Thursday, October 21st" },
-  // 22: { title: "Pizza & Wings", footer: "Friday, October 22nd" },
-  23: { title: "Chicken Cordon Bleu", text: "with rice pilaf", footer: "Monday, October 23th" },
-  24: { title: "OKTOBERFEST!", text: "Beer battered brats & tater salad", footer: "Tuesday, October 24th" },
-  25: { title: "Sandwiches", text: "w/salads", footer: "Wednesday, October 25th" },
-  26: { title: "Panera", footer: "Thursday, October 26th" },
-  27: { title: "Halloween Party", text: "🎈👻", footer: "Friday, October 27th" },
-  // 28: { title: "Harvest Salad with grilled chicken", footer: "Thursday, October 28th" },
-  // 29: {
-  //   title: "Last Summer BBQ ",
-  //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
-  //   imageWidth: 300,
-  //   imageHeight: 230,
-  //   imageAlt: "Custom image",
-  //   footer: "Friday, October 29th"
-  // }
-  30: { title: "Shrimp Scampi", footer: "Monday, October 30th" },
-  31: { title: "Chicken Parm w/Penne", footer: "Tuesday, October 31st" }
+  1: { title: "Shake Shack", footer: "Wednesday, November 1st" },
 
-  // 6: { title: "Sweetgreens", footer: "Thursday, October 6th" },
-  // 7: { title: "Sweetgreens", footer: "Monday, October 7th" },
-  // 8: {
-  //   title: "Chicken Cutlets & Mashed Taters",
-  //   text: "w/ corn and salad",
-  //   footer: "Tuesday, October 8th",
+  2: { title: "Halal Guys", footer: "Thursday, November 2nd" },
+
+  3: { title: "Chick-fil-a", footer: "Friday, November 3rd" },
+
+  6: {
+    title: "Blackened Chicken",
+    text: "with rice & veggies",
+    footer: "Monday, November 6th",
+  },
+
+  7: {
+    title: "Taco Bar",
+    footer: "Tuesday, November 7th",
+  },
+
+  8: {
+    title: "Turkey Chili",
+    text: "with cornbread & salad",
+    footer: "Wednesday, November 8th",
+  },
+
+  9: {
+    title: "DIY BLT",
+    text: "w/ salmon",
+    footer: "Thursday, November 9th",
+  },
+
+  10: {
+    title: "Apple cider chicken",
+    text: "w/egg noodles & salad",
+    footer: "Friday, November 10th",
+  },
+
+  13: {
+    title: "Harvest Salad",
+    text: "w/ grilled chicken",
+    footer: "Monday, November 13th",
+  },
+
+  14: {
+    title: "Grilled Shrimp Skewers",
+    text: "Veggie fried rice",
+    footer: "Tuesday, November 14th",
+  },
+
+  15: {
+    title: "Chicken & wild rice soup",
+    text: "w/ bread & salad",
+    footer: "Wednesday, November 15th",
+  },
+
+  16: {
+    title: "Perogies & Borsch",
+    // text: "with grilled chicken",
+    footer: "Thursday, November 16th",
+  },
+
+  17: {
+    title: "'Dynamite rolls'",
+    text: "w/sour cream and salad",
+    footer: "Friday, November 17th",
+  },
+
+  // 18: {
+  //   title: "Pecan panko crusted chicken",
+  //   text: "w/ roasted root veggies",
+  //   footer: "Thursday, November 18th",
   // },
-  // 9: { title: "Paninis & salads", footer: "Wednesday, October 9th" },
-  // 10: { title: "Baja Salad", footer: "Thursday, October 10th" },
-  // 11: { title: "Chop't", footer: "Friday, October 11th" },
-  // 14: { title: "Penne Vodka w/ Meatballs", footer: "Monday, October 14th" },
-  // 15: { title: "Taco Bar", footer: "Tuesday, October 15th" },
-  // 16: {
-  //   title: "Chicken Taquitos",
-  //   text: "w/ Rice",
-  //   footer: "Wednesday, October 16th",
+
+  // 19: {
+  //   title: "Bombay Hut",
+  //   footer: "Thursday, November 19th"
   // },
-  // 17: { title: "Chicken Masala", footer: "Thursday, October 17th" },
-  // 18: { title: "Jerk Chicken", footer: "Friday, October 18th" },
-  // 19: { title: "Chicken Quesadillas", footer: "Wednesday, October 19th" },
-  // 20: { title: "Bombay Hut", footer: "Thursday, October 20th" },
-  // 21: { title: "Cape Cod Salad", footer: "Monday, October 21st" },
-  // 22: { title: "Flank Steak Salad", footer: "Tuesday, October 22nd" },
-  // 23: { title: "Chick-fil-a", footer: "Wednesday, October 23rd" },
-  // 24: { title: "Bombay Hut", footer: "Thursday, October 24th" },
-  // 25: { title: "DIY Salmon BLT", footer: "Friday, October 25rd" },
-  // 26: { title: "Cornflake Chicken", footer: "Wednesday, October 26th" },
-  // 27: { title: "Chicken Cordon Bleu w/ Rice", footer: "Thursday, October 27th" },
-  // 28: { title: "Shrimp Scampi ", footer: "Monday, October 28th" },
-  // 29: { title: "Sweetgreen", footer: "Tuesday, October 29th" },
-  // 30: { title: "Chicken Cordon Bleu", footer: "Wednesday, October 30th" },
-  // 31: { title: "Paninis & salads", footer: "Thurday, October 31st" },
+
+  20: {
+    title: "Stuffed Shells",
+    text: "w/ chicken sausage and salad",
+    footer: "Monday, November 20th",
+  },
+
+  21: {
+    title: "BTG Thanksgiving",
+    text: "details to follow via kim-mail",
+    footer: "Friday, November 21th",
+  },
+
+  22: {
+    title: "Paninis and salads",
+    footer: "Wednesday, November 22nd",
+  },
+  23: {
+    title: "Office closed",
+    text: "Save the 🦃 🦃 🦃, it's all about the sides",
+    footer: "Thursday, November 23th",
+  },
+
+  24: {
+    title: "Pizza & Wings",
+    footer: "Friday, November 24nd",
+  },
+
+  // 25: {
+  //   title: "Sandwiches",
+  //   text: "w/salads",
+  //   footer: "Wednesday, November 25th",
+  // },
+
+  // 26: {
+  //   title: "Panera",
+  //   footer: "Thursday, November 26th"
+  // },
+
+  27: {
+    title: "Butternut Squash Ravioli",
+    text: "in a cream sauce w /grilled chicken",
+    footer: "Monday, November 27th",
+  },
+  
+  28: {
+    title: "Panko Chicken",
+    text: "w/veggies & rice",
+    footer: "Tuesday, November 28th",
+  },
+  
+  29: {
+    title: "Minestrone Soup",
+    text: "w/ garlic bread and salad",
+    footer: "Wednesday, November 29th"
+  },
+
+  30: {
+    title: "Flank Steak Salad",
+    footer: "Friday, November 30th"
+  }
+
+  // 31: {
+  //   title: "Chicken Parm w/Penne",
+  //   footer: "Tuesday, November 31st"
+  // },
+  
   // 28: { title: "🍔 BBQ 🍔 ", imageUrl: '../images/blaze.logo.png',
   //   imageWidth: 400,
   //   imageHeight: 200,
-  //   imageAlt: 'Custom image',footer: "Friday, October 28th" },
-  // 1: { title: "BTG BBQ", footer: "Friday, October 1th" },
+  //   imageAlt: 'Custom image',footer: "Friday, November 28th" },
   // 5: { title: "It's the weekend"}
 };
