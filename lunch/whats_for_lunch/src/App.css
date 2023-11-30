@@ -17,7 +17,8 @@ table {
 
 body {
   font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
-  background-image: url("images/hansel.jpg");
+  /* background-image: url("images/hansel.jpg"); */
+  background-image: url("images/wfl_mobile_gattilia.jpg");
   /* background-position: center; */
   /* background-size: cover; */
   background-size: 100%;
@@ -127,12 +128,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  /* box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.4), 0 1.5px 6px rgba(0, 0, 0, 0.4); */
-  /* box-shadow: 5px 10px #888888; */
-  /* width: 270px; */
-  /* height: 46px; */
   font-size: 24px;
-  /* border-radius: 40px; */
   letter-spacing: 0px;
   color: white;
 }
@@ -178,15 +174,6 @@ button {
   color: #fe4e00;
   background-color: inherit;
 }
-
-/* only used if home page shows the number of "today's" date */
-/* .date-container {
-  border: 1.25px solid #FF0F80;
-  border-radius: 30px;
-  padding: 5px 10px;
-  margin-right: 10px;
-  margin-left: 12px;
-} */
 
 /* guessed this yellow */
 .bottom-buttons2 a:visited {
@@ -397,7 +384,8 @@ table {
 
 @media (min-width: 768px) {
   body {
-    background-image: url("images/wfl_unsplash_desktop_edit_louis_hansel.jpg");
+    /* background-image: url("images/wfl_unsplash_desktop_edit_louis_hansel.jpg"); */
+    background-image: url("images/wfl_desktop_gattilia.jpg");
     background-position: center top;
     background-size: cover;
     background-size: 100%;
