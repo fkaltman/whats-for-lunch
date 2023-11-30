@@ -10,151 +10,171 @@ export const showAlerts = {
   //   imageAlt: "Custom image",
   //   footer: "Friday, September 1st",
   // },
-  1: { title: "Shake Shack", footer: "Wednesday, November 1st" },
+  1: { 
+    title: "Chicken Pot Pie", 
+    footer: "Friday, December 1st" 
+  },
 
-  2: { title: "Halal Guys", footer: "Thursday, November 2nd" },
+  4: { 
+    title: "Paninis & Salad", 
+    footer: "Monday, December 4th" 
+  },
 
-  3: { title: "Chick-fil-a", footer: "Friday, November 3rd" },
+  5: { 
+    title: "Taco Tuesday", 
+    footer: "Tuesday, December 5th" 
+  },
 
   6: {
-    title: "Blackened Chicken",
-    text: "with rice & veggies",
-    footer: "Monday, November 6th",
+    title: "Hamburg Soup",
+    text: "with salad & rolls",
+    footer: "Wednesday, December 6th",
   },
 
   7: {
-    title: "Taco Bar",
-    footer: "Tuesday, November 7th",
+    title: "Cali Burger Bar",
+    footer: "Thursday, December 7th",
   },
 
   8: {
-    title: "Turkey Chili",
-    text: "with cornbread & salad",
-    footer: "Wednesday, November 8th",
+    title: "Mediterranean Stuffed Peppers",
+    text: "with Greek salad & pitas",
+    footer: "Friday, December 8th",
   },
 
-  9: {
-    title: "DIY BLT",
-    text: "w/ salmon",
-    footer: "Thursday, November 9th",
+  // 9: {
+  //   title: "DIY BLT",
+  //   text: "w/ salmon",
+  //   footer: "Thursday, December 9th",
+  // },
+
+  // 10: {
+  //   title: "Apple cider chicken",
+  //   text: "w/egg noodles & salad",
+  //   footer: "Friday, December 10th",
+  // },
+  
+  11: {
+    title: "Chicken Taquitos",
+    footer: "Monday, December 11th",
   },
 
   10: {
-    title: "Apple cider chicken",
-    text: "w/egg noodles & salad",
-    footer: "Friday, November 10th",
+    title: "Chicken tortilla soup",
+    footer: "Tuesday, December 12th",
   },
 
   13: {
-    title: "Harvest Salad",
-    text: "w/ grilled chicken",
-    footer: "Monday, November 13th",
+    title: "Penne w/ roasted veggies",
+    text: "w/ salad & bread",
+    footer: "Wednesday, December 13th",
   },
 
   14: {
-    title: "Grilled Shrimp Skewers",
-    text: "Veggie fried rice",
-    footer: "Tuesday, November 14th",
+    title: "Parmesan Crusted Chicken",
+    text: "Mac & Cheese w/ broccoli",
+    footer: "Thursday, December 14th",
   },
 
   15: {
-    title: "Chicken & wild rice soup",
-    text: "w/ bread & salad",
-    footer: "Wednesday, November 15th",
-  },
-
-  16: {
-    title: "Perogies & Borsch",
-    // text: "with grilled chicken",
-    footer: "Thursday, November 16th",
-  },
-
-  17: {
     title: "'Dynamite rolls'",
     text: "w/sour cream and salad",
-    footer: "Friday, November 17th",
+    footer: "Friday, December 15th",
   },
 
-  // 18: {
-  //   title: "Pecan panko crusted chicken",
-  //   text: "w/ roasted root veggies",
-  //   footer: "Thursday, November 18th",
+  // 16: {
+  //   title: "Perogies & Borsch",
+  //   // text: "with grilled chicken",
+  //   footer: "Thursday, December 16th",
   // },
 
-  // 19: {
-  //   title: "Bombay Hut",
-  //   footer: "Thursday, November 19th"
+  // 17: {
+  //   title: "'Dynamite rolls'",
+  //   text: "w/sour cream and salad",
+  //   footer: "Friday, December 15th",
   // },
+
+  18: {
+    title: "Chicken Francese",
+    text: "w/ caeser salad & rolls",
+    footer: "Monday, December 18th",
+  },
+
+  19: {
+    title: "Cornflake Chicken",
+    text: "w/ mashed potatoes & veggies",
+    footer: "Tuesday, December 19th"
+  },
 
   20: {
     title: "Stuffed Shells",
-    text: "w/ chicken sausage and salad",
-    footer: "Monday, November 20th",
+    text: "w/ focaccia and salad",
+    footer: "Wednesday, December 20th",
   },
 
   21: {
-    title: "BTG Thanksgiving",
-    text: "details to follow via kim-mail",
-    footer: "Friday, November 21th",
+    title: "Chick-fil-a",
+    footer: "Thursday, December 21th",
   },
-
+  
   22: {
-    title: "Paninis and salads",
-    footer: "Wednesday, November 22nd",
+    title: "Garlic Shrimp",
+    text: "w/ rice pilaf, salad & rolls",
+    footer: "Friday, December 22nd",
   },
-  23: {
-    title: "Office closed",
-    text: "Save the 🦃 🦃 🦃, it's all about the sides",
-    footer: "Thursday, November 23th",
-  },
+  // 23: {
+  //   title: "Office closed",
+  //   text: "Save the 🦃 🦃 🦃, it's all about the sides",
+  //   footer: "Thursday, December 23th",
+  // },
 
-  24: {
-    title: "Pizza & Wings",
-    footer: "Friday, November 24nd",
-  },
+  // 24: {
+  //   title: "Pizza & Wings",
+  //   footer: "Friday, December 24nd",
+  // },
 
   // 25: {
   //   title: "Sandwiches",
   //   text: "w/salads",
-  //   footer: "Wednesday, November 25th",
+  //   footer: "Wednesday, December 25th",
   // },
 
   // 26: {
   //   title: "Panera",
-  //   footer: "Thursday, November 26th"
+  //   footer: "Thursday, December 26th"
   // },
 
-  27: {
-    title: "Butternut Squash Ravioli",
-    text: "in a cream sauce w /grilled chicken",
-    footer: "Monday, November 27th",
-  },
-  
-  28: {
-    title: "Panko Chicken",
-    text: "w/veggies & rice",
-    footer: "Tuesday, November 28th",
-  },
-  
-  29: {
-    title: "Minestrone Soup",
-    text: "w/ garlic bread and salad",
-    footer: "Wednesday, November 29th"
-  },
+  // 27: {
+  //   title: "Butternut Squash Ravioli",
+  //   text: "in a cream sauce w /grilled chicken",
+  //   footer: "Monday, December 27th",
+  // },
 
-  30: {
-    title: "Flank Steak Salad",
-    footer: "Friday, November 30th"
-  }
+  // 28: {
+  //   title: "Panko Chicken",
+  //   text: "w/veggies & rice",
+  //   footer: "Tuesday, December 28th",
+  // },
+
+  // 29: {
+  //   title: "Minestrone Soup",
+  //   text: "w/ garlic bread and salad",
+  //   footer: "Wednesday, December 29th",
+  // },
+
+  // 30: {
+  //   title: "Flank Steak Salad",
+  //   footer: "Friday, December 30th",
+  // },
 
   // 31: {
   //   title: "Chicken Parm w/Penne",
-  //   footer: "Tuesday, November 31st"
+  //   footer: "Tuesday, December 31st"
   // },
-  
+
   // 28: { title: "🍔 BBQ 🍔 ", imageUrl: '../images/blaze.logo.png',
   //   imageWidth: 400,
   //   imageHeight: 200,
-  //   imageAlt: 'Custom image',footer: "Friday, November 28th" },
+  //   imageAlt: 'Custom image',footer: "Friday, December 28th" },
   // 5: { title: "It's the weekend"}
 };
