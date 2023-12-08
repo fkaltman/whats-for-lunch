@@ -59,7 +59,7 @@ export const showAlerts = {
     footer: "Monday, December 11th",
   },
 
-  10: {
+  12: {
     title: "Chicken tortilla soup",
     footer: "Tuesday, December 12th",
   },

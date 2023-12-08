@@ -384,8 +384,8 @@ table {
 
 @media (min-width: 768px) {
   body {
-    /* background-image: url("images/wfl_unsplash_desktop_edit_louis_hansel.jpg"); */
-    background-image: url("images/wfl_desktop_gattilia.jpg");
+    background-image: url("images/wfl_unsplash_desktop_edit_louis_hansel.jpg");
+    /* background-image: url("images/wfl_desktop_gattilia.jpg"); */
     background-position: center top;
     background-size: cover;
     background-size: 100%;
