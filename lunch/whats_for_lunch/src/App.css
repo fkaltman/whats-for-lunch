@@ -24,6 +24,12 @@ body {
   background-size: 100%;
 }
 
+/* temp message when lunch info is not available */
+.temp-msg {
+  text-align: center;
+  display: none;
+}
+
 .logo-header {
   text-align: center;
 }

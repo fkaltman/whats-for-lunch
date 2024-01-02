@@ -11,9 +11,9 @@ const Home = () => {
   return (
     <>
       <Header />
-    <section className="main-buttons">
+      <section className="main-buttons">
       <LunchButton />
-      <CalButton />
+      {/* <CalButton /> */}
       <TakeoutButton />
       {/* <Footer /> */}
     </section>

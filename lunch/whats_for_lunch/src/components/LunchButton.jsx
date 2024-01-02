@@ -26,13 +26,13 @@ const LunchButton = () => {
 
   return (
     <div className="button-container">
-      <button
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today's lunch is PIZZA & WINGS<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;Thanks for your patience  while I <br /> &nbsp;&nbsp;wait for info for the rest of the month
+      {/* <button
         onClick={() => Swal.fire(showAlerts[dateNum])}
         className="todays-button home-buttons days"
       >
-        {/* <span class="date-container">{dateNum}</span> */}
         TODAY'S LUNCH
-      </button>
+      </button> */}
     </div>
   );
 };
