@@ -12,180 +12,184 @@ export const showAlerts = {
   // },
   1: { 
     title: "Sweetgreen", 
-    footer: "Thursday, February 1st" 
+    footer: "Thursday, March 1st" 
   },
-  2: { 
-    title: "Chicken fajitas", 
-    footer: "Friday, February 2st" 
-  },
+  // 2: { 
+  //   title: "Chicken fajitas", 
+  //   footer: "Friday, March 2st" 
+  // },
   // 3: { 
   //   title: "DIY Salad Bar", 
-  //   footer: "Wednesday, February 3rd" 
+  //   footer: "Wednesday, March 3rd" 
   // },
 
-  // 4: { 
-  //   title: "Bombay Hut", 
-  //   footer: "Thursday, February 4th" 
-  // },
+  4: { 
+    title: "Chicken w/ Tahini Sauce", 
+    text: "with salad & pita",
+    footer: "Monday, March 4th" 
+  },
 
   5: { 
-    title: "Fit Pit", 
-    // text: " w/ Mac & Cheese & Collard greens",
-    footer: "Monday, February 5th" 
+    title: "Penne Vodka & Chicken", 
+    text: " w/ Ceasar salad",
+    footer: "Tuesday, March 5th" 
   },
 
   6: {
-    title: "Chik-fil-a",
-    // text: "with salad & rolls",
-    footer: "Tuesday, February 6th",
-  },
-
-  7: {
     title: "DIY Salad Bar",
-    footer: "Wednesday, February 7th",
+    // text: "with salad & rolls",
+    footer: "Wednesday, March 6th",
+  },
+  
+  7: {
+    title: "Panko Chicken",
+    text: "w/ rice & veggies",
+    footer: "Thursday, March 7th",
   },
 
   8: {
-    title: "DIY Cali 🍔 Bar",
-    // text: "with Greek salad & pitas",
-    footer: "Thursday, February 8th",
+    title: "Bruschetta Bake",
+    text: "choose shrimp or chicken",
+    footer: "Friday, March 8th",
   },
 
-  9: {
-    title: "White Chicken Chili",
-    // text: "w/ salmon",
-    footer: "Friday, February 9th",
-  },
+  // 9: {
+  //   title: "White Chicken Chili",
+  //   // text: "w/ salmon",
+  //   footer: "Friday, March 9th",
+  // },
 
   // 10: {
   //   title: "White Chicken Chili",
   //   // text: "w/egg noodles & salad",
-  //   footer: "Wednesday, February 10th",
+  //   footer: "Wednesday, March 10th",
   // },
   
-  // 11: {
-  //   title: "Shrimp Scampi",
-  //   footer: "Thursday, February 11th",
-  // },
+  11: {
+    title: "Teriyaki Salmon",
+      text: "w/ rice & green beans",
+    footer: "Monday, March 11th",
+  },
   
   12: {
-    title: "Manager's Conference",
+    title: "Chicken Tortilla Soup",
     // text: "w/egg noodles & brocolli",
-    footer: "Monday, February 12th",
+    footer: "Tuesday, March 12th",
   },
 
   13: {
-    title: "Manager's Conference",
-    // text: "w/ salad & bread",
-    footer: "Tuesday, February 13th",
-  },
-
-  14: {
     title: "DIY Sandwich Bar",
     // text: "Mac & Cheese w/ broccoli",
-    footer: "Wednesday, February 14th",
+    footer: "Wednesday, March 14th",
+  },
+  
+  14: {
+    title: "Chicken Cutlets",
+    text: "w/ mashed taters & corn",
+    footer: "Thursday, March 13th",
   },
 
   15: {
-    title: "Chicken Tortilla Soup",
+    title: "🍀 St Patty's Day Feast",
     // text: "w/rice and veggies",
-    footer: "Thursday, February 15th",
+    footer: "Friday, March 15th",
   },
 
-  16: {
-    title: "Chicken Posole",
-    // text: "with grilled chicken",
-    footer: "Friday, February 16th",
-  },
+  // 16: {
+  //   title: "Chicken Posole",
+  //   // text: "with grilled chicken",
+  //   footer: "Friday, March 16th",
+  // },
 
   // 17: {
   //   title: "DIY Sandwich Bar",
   //   // text: "w/sour cream and salad",
-  //   footer: "Wednesday, February 17th",
+  //   footer: "Wednesday, March 17th",
   // },
 
-  // 18: {
-  //   title: "DIY Salmon BLTs",
-  //   // text: "w/ caeser salad & rolls",
-  //   footer: "Thursday, February 18th",
-  // },
+  18: {
+    title: "Lasagna Soup",
+    text: "w/ salad & garlic bread",
+    footer: "Monday, March 18th",
+  },
 
   19: {
-    title: "Paninis & Salads",
+    title: "Buffalo Chicken Wraps",
     // text: "w/ Asian Salad",
-    footer: "Monday, February 19th"
+    footer: "Tuesday, March 19th"
   },
 
   20: {
-    title: "DIY Salmon BLT",
-    // text: "w/ focaccia and salad",
-    footer: "Tuesday, February 20th",
-  },
-
-  21: {
     title: "DIY Salad Bar",
-    footer: "Wednesday, February 21th",
+    // text: "w/ focaccia and salad",
+    footer: "Wednesday, March 20th",
+  },
+  
+  21: {
+    title: "Shrimp Skewers",
+    text: "w/ veggie fried rice",
+    footer: "Thursday, March 21th",
   },
   
   22: {
-    title: "Chicken Cordon bleu",
-    // text: "w/ rice pilaf, salad & rolls",
-    footer: "Thursday, February 22nd",
+    title: "Pasta Primavera",
+    text: "w/ chicken sausage",
+    footer: "Friday, March 22nd",
   },
 
-  23: {
-    title: "Healthy Chicken Parm",
-    // text: "Save the 🦃 🦃 🦃, it's all about the sides",
-    footer: "Friday, February 23th",
-  },
+  // 23: {
+  //   title: "Healthy Chicken Parm",
+  //   // text: "Save the 🦃 🦃 🦃, it's all about the sides",
+  //   footer: "Friday, March 23th",
+  // },
 
   // 24: {
   //   title: "Chop't Salad",
-  //   footer: "Wednesday, February 24nd",
+  //   footer: "Wednesday, March 24nd",
   // },
 
-  // 25: {
-  //   title: "Shrimp Skewers",
-  //   footer: "Thursday, February 25th",
-  // },
+  25: {
+    title: "SweetGreen 🥗",
+    footer: "Monday, March 25th",
+  },
   
   26: {
-    title: "Butternut Squash Ravioli",
-    text: "w/ Grilled chicken",
-    footer: "Monday, February 26th"
+    title: "DIY Sando Bar",
+    // text: "w/ Grilled chicken",
+    footer: "Tuesday, March 26th"
   },
 
   27: {
-    title: "Blackened Chicken",
-    text: "w/ veggies",
-    footer: "Tuesday, February 27th",
+    title: "Chic-fil-a",
+    // text: "w/ veggies",
+    footer: "Wednesday, March 27th",
   },
 
   28: {
-    title: "DIY sando bar",
-    text: "w/veggies & rice",
-    footer: "Wednesday, February 28th",
+    title: "Dumpling Bar",
+    text: "🥟🥟🥟🥟🥟",
+    footer: "Thursday, March 28th",
   },
   
-  29: {
-    title: "Parm Crusted Chicken",
-      text: "w/ mac and cheese broccoli",
-    footer: "Monday, February 29th",
-  },
+  // 29: {
+  //   title: "Parm Crusted Chicken",
+  //     text: "w/ mac and cheese broccoli",
+  //   footer: "Friday, March 29th",
+  // },
 
   // 30: {
   //   title: "Chicken Tortilla Soup",
-  //   footer: "Tuesday, February 30th",
+  //   footer: "Tuesday, March 30th",
   // },
 
   // 31: {
   //   title: "Dynamite Rolls",
-  //   footer: "Wednesday, February 31st"
+  //   footer: "Wednesday, March 31st"
   // }
 
   // 28: { title: "🍔 BBQ 🍔 ", imageUrl: '../images/blaze.logo.png',
   //   imageWidth: 400,
   //   imageHeight: 200,
-  //   imageAlt: 'Custom image',footer: "Friday, February 28th" },
+  //   imageAlt: 'Custom image',footer: "Friday, March 28th" },
   // 5: { title: "It's the weekend"}
 };
