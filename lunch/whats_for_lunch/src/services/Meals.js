@@ -11,7 +11,7 @@ export const showAlerts = {
   //   footer: "Friday, September 1st",
   // },
   1: { 
-    title: "Sweetgreen", 
+    title: "Chicken & Shrimp Gumbo", 
     footer: "Thursday, March 1st" 
   },
   // 2: { 
