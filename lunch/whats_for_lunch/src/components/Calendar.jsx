@@ -19,7 +19,7 @@ function Calendar() {
         <div id="calendar">
           <table>
             <div id="month">
-              <th className="month">MARCH</th>
+              <th className="month">APRIL</th>
             </div>
 
             <div id="weeks">
@@ -236,15 +236,13 @@ function Calendar() {
                 >
                   29
                 </td>
-                <td className="days grey-day">30</td>
-                {/* </tr> */}
-
-                {/* <td
+                {/* <td className="days grey-day">30</td> */}
+                <td
                   onClick={() => Swal.fire(showAlerts[30])}
                   className={`days hover-day ${date === 30 ? "red" : "black"}`}
                 >
                   30
-                </td> */}
+                </td>
                 <td
                   onClick={() => Swal.fire(showAlerts[31])}
                   className={`days hover-day ${date === 31 ? "red" : "black"}`}
