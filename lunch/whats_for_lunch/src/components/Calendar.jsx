@@ -49,7 +49,7 @@ function Calendar() {
                 >
                   2
                 </td>
-                <td className="days grey-day">2</td>
+                {/* <td className="days grey-day">2</td> */}
                 <td
                   onClick={() => Swal.fire(showAlerts[3])}
                   className={`days hover-day ${date === 3 ? "red" : "black"}`}
