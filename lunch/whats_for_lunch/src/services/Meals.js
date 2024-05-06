@@ -38,36 +38,31 @@ export const showAlerts = {
   // },
 
   6: {
-    title: "TBD",
-    // title: "DIY Salad Bar",
+    title: "Taco Bar",
     // text: "with salad & rolls",
     footer: "Monday, May 6th",
   },
   
   7: {
-    title: "TBD",
-    // title: "Panko Chicken",
-    // text: "w/ rice & veggies",
+    title: "Shrimp Skewers",
+    text: "w/ veggie fried rice",
     footer: "Tuesday, May 7th",
   },
 
   8: {
-    title: "TBD",
-    // title: "DIY Sandwich Bar",
+    title: "DIY Salad Bar",
     // text: "choose shrimp or chicken",
     footer: "Wednesday, May 8th",
   },
 
   9: {
-    title: "TBD",
-    // title: "Cheesesteak & Buffalo Chicken egg rolls",
+    title: "DIY Cali Burger Bar",
     // text: "🧻 🧻 🧻",
     footer: "Thursday, May 9th",
   },
 
   10: {
-    title: "TBD",
-    // title: "DIY Salad Bar",
+    title: "Hawaiian Sloppy Joes",
     // text: "w/egg noodles & salad",
     footer: "Friday, May 10th",
   },
@@ -85,35 +80,31 @@ export const showAlerts = {
   // },
 
   13: {
-    title: "TBD",
-    // title: "DIY Sandwich Bar",
+    title: "Chicken Verdicchio",
     // text: "Mac & Cheese w/ broccoli",
     footer: "Monday, May 14th",
   },
   
   14: {
-    title: "TBD",
-    // title: "Chicken Cutlets",
-    // text: "w/ mashed taters & corn",
+    title: "Cornflake Chicken",
+    text: "w/ mashed taters & veggies",
     footer: "Tuesday, May 13th",
   },
 
   15: {
-    title: "TBD",
-    // title: "DIY Burrito Bowls",
+    title: "DIY Sandwich Bar",
     // text: "w/rice and veggies",
     footer: "Wednesday, May 15th",
   },
 
   16: {
-    title: "TBD",
-    // title: "Peruvian food",
-    // text: "with grilled chicken",
+    title: "El Gordo",
+    text: "Peruvian food",
     footer: "Thursday, May 16th",
   },
 
   17: {
-    title: "TBD",
+    title: "DIY Bowls",
     // title: "DIY Sandwich Bar",
     // text: "w/sour cream and salad",
     footer: "Friday, May 17th",
@@ -132,36 +123,31 @@ export const showAlerts = {
   // },
 
   20: {
-    title: "TBD",
-    // title: "DIY Salad Bar",
-    // text: "w/ focaccia and salad",
+    title: "Penne Vodka",
+    text: "w/ grilled chicken and salad",
     footer: "Monday, May 20th",
   },
   
   21: {
-    title: "TBD",
-    // title: "Shrimp Skewers",
+    title: "Cuban Food",
     // text: "w/ veggie fried rice",
     footer: "Tuesday, May 21th",
   },
   
   22: {
-    title: "TBD",
-    // title: "Salmon in Pamadoro sauce",
+    title: "DIY Salad Bar",
     // text: "w/ Chickpeas & Kale",
     footer: "Wednesday, May 22nd",
   },
 
   23: {
-    title: "TBD",
-    // title: "Blackened Chicken",
-    // text: "w/ rice & roasted veg",
+    title: "Chicken Quesadilla",
     footer: "Thursday, May 23th",
   },
-
+  
   24: {
-    title: "TBD",
-    // title: "DIY Salad Bar",
+    title: "Grilled CHicken",
+    text: "w/ couscous & brocolli",
     footer: "Friday, May 24nd",
   },
 
@@ -177,15 +163,13 @@ export const showAlerts = {
   // },
 
   27: {
-    title: "TBD",
-    // title: "Chic-fil-a",
-    // text: "w/ veggies",
+    title: "Office Closed",
+    text: "Memorial Day",
     footer: "Monday, May 27th",
   },
 
   28: {
-    title: "TBD",
-    // title: "Dumpling Bar",
+    title: "Sweetgreen",
     // text: "🥟🥟🥟🥟🥟",
     footer: "Tuessday, May 28th",
   },
@@ -198,16 +182,25 @@ export const showAlerts = {
   },
 
   30: {
-    title: "TBD",
+    title: "Summer Seafood Stew",
     // title: "Chicken Cordon Bleu",
     footer: "Thursday, May 30th",
   },
 
   31: {
-    title: "TBD",
-    // title: "Dynamite Rolls",
+    title: "🍔 BBQ 🍔 ",
+    imageUrl: "https://i.imgur.com/c8qugHI.jpg",
+    imageWidth: 300,
+    imageHeight: 230,
     footer: "Friday, May 31st"
   }
+
+  // title: "🍔 BBQ 🍔 ",
+  //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
+  //   imageWidth: 300,
+  //   imageHeight: 230,
+  //   imageAlt: "Custom image",
+  //   footer: "Friday, September 1st",
 
   // 28: { title: "🍔 BBQ 🍔 ", imageUrl: '../images/blaze.logo.png',
   //   imageWidth: 400,
