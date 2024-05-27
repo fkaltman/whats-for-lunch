@@ -188,12 +188,16 @@ export const showAlerts = {
   },
 
   31: {
-    title: "🍔 BBQ 🍔 ",
-    imageUrl: "https://i.imgur.com/c8qugHI.jpg",
-    imageWidth: 300,
-    imageHeight: 230,
+    title: "Gyros",
     footer: "Friday, May 31st"
   }
+  // 31: {
+  //   title: "🍔 BBQ 🍔 ",
+  //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
+  //   imageWidth: 300,
+  //   imageHeight: 230,
+  //   footer: "Friday, May 31st"
+  // }
 
   // title: "🍔 BBQ 🍔 ",
   //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
