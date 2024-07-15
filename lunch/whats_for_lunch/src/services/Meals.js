@@ -102,7 +102,7 @@ export const showAlerts = {
 
   16: {
     title: "Taco Bar",
-    text: "🌮🌮🌮",
+    text: "🌮🌮🌮🌮",
     footer: "Tuesday, July 16th",
   },
 
