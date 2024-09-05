@@ -11,36 +11,36 @@ export const showAlerts = {
   //   footer: "Friday, September 1st",
   // },
   1: { 
-    title: "Grilled Chicken Pasta Salad", 
-    text: "with pitas",
-    footer: "Monday, July 1st" 
+    title: "Paninis and Sandos", 
+    footer: "Thursday, August 1st" 
   },
   2: { 
-    title: "DIY Salmon BLT Bar", 
-    footer: "Tuesday, July 2nd" 
+    title: "BBQ Chicken", 
+    text: "with Mac & Cheese",
+    footer: "Friday, August 2nd" 
   },
-  3: { 
-    title: "DIY Salad Bar",
-    // text: "🥟🥟🥟🥟🥟",
-    footer: "Wednesday, July 3rd" 
-  },
-
-  4: { 
-    title: "Office closed", 
-    text: "🇺🇸🎇🧨",
-    footer: "Thursday, July 4th" 
-  },
-
   5: { 
-    title: "Baja Chicken Salad", 
+    title: "Grilled Chicken Thighs",
+    text: "w/ couscous salad",
+    footer: "Monday, August 5th" 
+  },
+
+  6: { 
+    title: "Southwest Chicken Egg Rolls", 
+    // text: "🇺🇸🎇🧨",
+    footer: "Tuesday, August 6th" 
+  },
+
+  7: { 
+    title: "DIY Sandwiches", 
     // text: " w/ Ceasar salad",
-    footer: "Friday, July 5th" 
+    footer: "Wednesday, August 7th" 
   },
 
   // 6: {
   //   title: "Chicken Wings", 
   //   text: " w/ Mac & Cheese",
-  //   footer: "Thursday, July 6th",
+  //   footer: "Thursday, August 6th",
   // },
   
   // 7: {
@@ -49,175 +49,168 @@ export const showAlerts = {
   //   imageWidth: 300,
   //   imageHeight: 230,
   //   imageAlt: "Custom image",
-  //   footer: "Friday, July 7th",
+  //   footer: "Friday, August 7th",
   // },
 
   8: {
-    title: "DIY Bowls",
-    // text: "choose shrimp or chicken",
-    footer: "Monday, July 8th",
+    title: "Teriyaki Salmon",
+    text: "w/ rice & green beans",
+    footer: "Thursday, August 8th",
   },
 
   9: {
-    title: "PF Chang's",
+    title: "Burrito Bar",
     // text: "",
-    footer: "Tuesday, July 9th",
+    footer: "Friday, August 9th",
   },
 
-  10: {
-    title: "DIY Sandwiches",
-    // text: "w/rice & tomato salad",
-    footer: "Wednesday, July 10th",
-  },
+  // 10: {
+  //   title: "DIY Sandwiches",
+  //   // text: "w/rice & tomato salad",
+  //   footer: "Wednesday, August 10th",
+  // },
   
-  11: {
-    title: "Lemon Pepper Shrimp",
-      // text: "w/ rice & green beans",
-    footer: "Thursday, July 11th",
-  },
+  // 11: {
+  //   title: "Lemon Pepper Shrimp",
+  //     // text: "w/ rice & green beans",
+  //   footer: "Thursday, August 11th",
+  // },
   
   12: {
-    title: "Grilled Chicken",
+    title: "Salmon Bowls",
     text: "Ratatouille",
-    footer: "Friday, July 12th",
+    footer: "Monday, August 12th",
   },
 
-  // 13: {
-  //   title: "Cali Burger Bar",
-  //   // text: "Mac & Cheese w/ broccoli",
-  //   footer: "Thursday, July 13th",
-  // },
+  13: {
+    title: "Panko Chicken",
+    text: "w/ rice & veggies",
+    footer: "Tuesday, August 13th",
+  },
   
-  // 14: {
-  //   title: "Low Country Boil",
-  //   text: "w/ mashed taters & veggies",
-  //   footer: "Friday, July 14th",
-  // },
+  14: {
+    title: "DIY Salad Bar",
+    // text: "w/ mashed taters & veggies",
+    footer: "Wednesday, August 14th",
+  },
 
   15: {
-    title: "Panko Chicken",
-    text: "w/rice and veggies",
-    footer: "Monday, July 15th",
+    title: "Tomato Pasta & Chicken",
+    text: "w/ salad",
+    footer: "Thursday, August 15th",
   },
 
   16: {
-    title: "Taco Bar",
-    text: "🌮🌮🌮🌮",
-    footer: "Tuesday, July 16th",
+    title: "El Gordo",
+    // text: "🌮🌮🌮",
+    footer: "Friday, August 16th",
   },
 
-  17: {
-    title: "Salad Bar",
-    // text: "w/sour cream and salad",
-    footer: "Wednesday, July 17th",
-  },
+  // 17: {
+  //   title: "Salad Bar",
+  //   // text: "w/sour cream and salad",
+  //   footer: "Wednesday, August 17th",
+  // },
 
-  18: {
-    title: "Cali Burger Bar",
-    // text: "w/ salad & garlic bread",
-    footer: "Thursday, July 18th",
-  },
+  // 18: {
+  //   title: "Cali Burger Bar",
+  //   // text: "w/ salad & garlic bread",
+  //   footer: "Thursday, August 18th",
+  // },
 
   19: {
-    title: "Latin Picadillo",
-    text: "w/ rice & salad",
-    footer: "Friday, July 19th"
+    title: "DIY Sandwiches",
+    // text: "w/ rice & salad",
+    footer: "Monday, August 19th"
   },
 
-  // 20: {
-  //   title: "Assorted Paninis",
-  //   text: "w/ salads",
-  //   footer: "Thursday, July 20th"
-  // },
+  20: {
+    title: "Taco Bar",
+    // text: "w/ salads",
+    footer: "Tuesday, August 20th"
+  },
   
-  // 21: {
-  //   title: "Burrito Bar",
-  //   footer: "Friday, July 21th",
-  // },
+  21: {
+    title: "Baja Chicken Salad",
+    footer: "Wednesday, August 21th",
+  },
   
   22: {
-    title: "Blackened Chicken",
-    text: "w/ veggies",
-    footer: "Monday, July 22nd",
+    title: "DIY Bowls",
+    // text: "w/ veggies",
+    footer: "Thursday, August 22nd",
   },
   
   23: {
-    title: "Penne Vodka with Chicken",
+    title: "Shrimp Scampi",
     text: "w/ Ceaser salad",
-    footer: "Tuesday, July 23th",
+    footer: "Friday, August 23th",
   },
   
-  24: {
-    title: "DIY Sandwich Day",
-    text: "Italian Pasta Salad",
-    footer: "Wednesday, July 24nd",
-  },
+  // 24: {
+  //   title: "DIY Sandwich Day",
+  //   text: "Italian Pasta Salad",
+  //   footer: "Wednesday, August 24nd",
+  // },
 
-  25: {
-    title: "Flank Steak Salad",
-    // text: "w/ rice & veg",
-    footer: "Thursday, July 25th",
-  },
+  // 25: {
+  //   title: "Flank Steak Salad",
+  //   text: "w/ rice & veg",
+  //   footer: "Thursday, August 25th",
+  // },
   
   26: {
+    title: "Salmon BTL Bar",
+    // text: "w/veg fried rice",
+    footer: "Monday, August 26th",
+  },
+
+  27: {
+    title: "Blackened Chicken",
+    text: "w/ rice & veggies",
+    footer: "Tuesday, August 27th",
+  },
+
+  28: {
+    title: "DIY Salad Bar",
+    // text: "w/ mac and cheese broccoli",
+    footer: "Wednesday, August 28th",
+   
+  },
+  
+  29: {
+    title: "Bombay Hut",
+      // text: "w/ mac and cheese broccoli",
+    footer: "Thurday, August 29th",
+  },
+
+  30: {
     title: "🍔 BBQ 🍔 ",
     imageUrl: "https://i.imgur.com/c8qugHI.jpg",
     imageWidth: 300,
     imageHeight: 230,
     imageAlt: "Custom image",
-    footer: "Friday, July 26th"
+    footer: "Friday, August 30th",
   },
 
-  // 27: {
-  //   title: "Shrimp Skewers",
-  //   text: "w/veg fried rice",
-  //   footer: "Thursday, July 27th",
-  // },
-
-  // 28: {
-  //   title: "🍔 BBQ 🍔 ",
-  //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
-  //   imageWidth: 300,
-  //   imageHeight: 230,
-  //   imageAlt: "Custom image",
-  //   footer: "Friday, July 28th",
-  // },
-  
-  29: {
-    title: "Honey Lime Chicken Chili Bowls",
-      // text: "w/ mac and cheese broccoli",
-    footer: "Monday, July 29th",
-  },
-
-  30: {
-    title: "El Gordo",
-    // title: "Chicken Cordon Bleu",
-    footer: "Tuesday, July 30th",
-  },
-
-  31: {
-    title: "DIY Salad Bar",
-    footer: "Wednesday, July 31st"
-  }
+  // 31: {
+  //   title: "DIY Salad Bar",
+  //   footer: "Wednesday, August 31st"
+  // }
 
   // 31: {
   //   title: "🍔 BBQ 🍔 ",
   //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
   //   imageWidth: 300,
   //   imageHeight: 230,
-  //   footer: "Friday, July 31st"
+  //   footer: "Friday, August 31st"
   // }
 
-  // title: "🍔 BBQ 🍔 ",
-  //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
-  //   imageWidth: 300,
-  //   imageHeight: 230,
-  //   imageAlt: "Custom image",
-  //   footer: "Friday, September 1st",
+
 
   // 28: { title: "🍔 BBQ 🍔 ", imageUrl: '../images/blaze.logo.png',
   //   imageWidth: 400,
   //   imageHeight: 200,
-  //   imageAlt: 'Custom image',footer: "Friday, July 28th" },
+  //   imageAlt: 'Custom image',footer: "Friday, August 28th" },
   // 5: { title: "It's the weekend"}
 };
