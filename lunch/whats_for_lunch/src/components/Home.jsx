@@ -13,10 +13,10 @@ const Home = () => {
     <>
       <Header />
       <section className="main-buttons">
-      <Brb />
-      {/* <LunchButton /> */}
-      {/* <CalButton /> */}
-      {/* <TakeoutButton /> */}
+      {/* <Brb /> */}
+      <LunchButton />
+      <CalButton />
+      <TakeoutButton />
       {/* <Footer /> */}
     </section>
     </>

@@ -10,207 +10,225 @@ export const showAlerts = {
   //   imageAlt: "Custom image",
   //   footer: "Friday, September 1st",
   // },
-  1: { 
-    title: "Paninis and Sandos", 
-    footer: "Thursday, August 1st" 
-  },
+  // 1: { 
+  //   title: "Paninis and Sandos", 
+  //   footer: "Thursday, September 1st" 
+  // },
+  // 2: { 
+  //   title: "BBQ Chicken", 
+  //   text: "with Mac & Cheese",
+  //   footer: "Friday, September 2nd" 
+  // },
   2: { 
-    title: "BBQ Chicken", 
-    text: "with Mac & Cheese",
-    footer: "Friday, August 2nd" 
+    title: "Office Closed", 
+    // text: "with Mac & Cheese",
+    // footer: "Friday, September 2nd" 
+  },
+  3: { 
+    title: "Pulled Pork & Perri Peri Chicken", 
+    // text: "with Mac & Cheese",
+    footer: "Tuesday, September 3rd" 
+  },
+  4: { 
+    title: "DIY Sandwiches",  
+    // text: "with Mac & Cheese",
+    footer: "Wednesday, September 4th" 
   },
   5: { 
-    title: "Grilled Chicken Thighs",
-    text: "w/ couscous salad",
-    footer: "Monday, August 5th" 
+    title: "Chick-fil-A",
+    // text: "w/ couscous salad",
+    footer: "Thursday, September 5th" 
   },
 
   6: { 
-    title: "Southwest Chicken Egg Rolls", 
+    title: "Shrimp Scampi", 
     // text: "🇺🇸🎇🧨",
-    footer: "Tuesday, August 6th" 
+    footer: "Friday, September 6th" 
   },
 
-  7: { 
-    title: "DIY Sandwiches", 
-    // text: " w/ Ceasar salad",
-    footer: "Wednesday, August 7th" 
-  },
-
-  // 6: {
-  //   title: "Chicken Wings", 
-  //   text: " w/ Mac & Cheese",
-  //   footer: "Thursday, August 6th",
+  // 7: { 
+  //   title: "DIY Sandwiches", 
+  //   // text: " w/ Ceasar salad",
+  //   footer: "Wednesday, September 7th" 
   // },
-  
+
   // 7: {
   //   title: "🍔 BBQ 🍔 ",
   //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
   //   imageWidth: 300,
   //   imageHeight: 230,
   //   imageAlt: "Custom image",
-  //   footer: "Friday, August 7th",
+  //   footer: "Friday, September 7th",
   // },
 
-  8: {
-    title: "Teriyaki Salmon",
-    text: "w/ rice & green beans",
-    footer: "Thursday, August 8th",
-  },
+  // 8: {
+  //   title: "Teriyaki Salmon",
+  //   text: "w/ rice & green beans",
+  //   footer: "Thursday, September 8th",
+  // },
 
   9: {
-    title: "Burrito Bar",
+    title: "Managers Conference",
     // text: "",
-    footer: "Friday, August 9th",
+    footer: "Monday, September 9th",
   },
-
-  // 10: {
-  //   title: "DIY Sandwiches",
-  //   // text: "w/rice & tomato salad",
-  //   footer: "Wednesday, August 10th",
-  // },
   
-  // 11: {
-  //   title: "Lemon Pepper Shrimp",
-  //     // text: "w/ rice & green beans",
-  //   footer: "Thursday, August 11th",
-  // },
+  10: {
+    title: "Managers Conference",
+    // title: "DIY Sandwiches",
+    // text: "w/rice & tomato salad",
+    footer: "Tuesday, September 10th",
+  },
+  
+  11: {
+    title: "Managers Conference",
+    // title: "Lemon Pepper Shrimp",
+      // text: "w/ rice & green beans",
+    footer: "Wednesday, September 11th",
+  },
   
   12: {
-    title: "Salmon Bowls",
-    text: "Ratatouille",
-    footer: "Monday, August 12th",
+    title: "DIY Salad Bar",
+    // text: "Ratatouille",
+    footer: "Thursday, September 12th",
   },
 
   13: {
-    title: "Panko Chicken",
-    text: "w/ rice & veggies",
-    footer: "Tuesday, August 13th",
+    title: "Tuscan Orzo Chicken",
+    // text: "w/ rice & veggies",
+    footer: "Friday, September 13th",
   },
   
-  14: {
-    title: "DIY Salad Bar",
-    // text: "w/ mashed taters & veggies",
-    footer: "Wednesday, August 14th",
-  },
+  // 14: {
+  //   title: "DIY Salad Bar",
+  //   text: "w/ mashed taters & veggies",
+  //   footer: "Wednesday, September 14th",
+  // },
 
-  15: {
-    title: "Tomato Pasta & Chicken",
-    text: "w/ salad",
-    footer: "Thursday, August 15th",
-  },
+  // 15: {
+  //   title: "Tomato Pasta & Chicken",
+  //   text: "w/ salad",
+  //   footer: "Thursday, September 15th",
+  // },
 
   16: {
-    title: "El Gordo",
+    title: "Ziti w/ 🍆 & Ricotta",
     // text: "🌮🌮🌮",
-    footer: "Friday, August 16th",
+    footer: "Monday, September 16th",
   },
 
-  // 17: {
-  //   title: "Salad Bar",
-  //   // text: "w/sour cream and salad",
-  //   footer: "Wednesday, August 17th",
-  // },
+  17: {
+    title: "Panko Chicken",
+    text: "w/rice & veggies",
+    footer: "Tuesday, September 17th",
+  },
 
-  // 18: {
-  //   title: "Cali Burger Bar",
-  //   // text: "w/ salad & garlic bread",
-  //   footer: "Thursday, August 18th",
-  // },
+  18: {
+    title: "DIY Sandwich Day",
+    // text: "w/ salad & garlic bread",
+    footer: "Wednesday, September 18th",
+  },
 
   19: {
-    title: "DIY Sandwiches",
-    // text: "w/ rice & salad",
-    footer: "Monday, August 19th"
+    title: "El Gordo Peruvian Chicken",
+    text: "w/ rice & plantians",
+    footer: "Thursday, September 19th"
   },
 
   20: {
-    title: "Taco Bar",
+    title: "DIY Salmon Bowls",
     // text: "w/ salads",
-    footer: "Tuesday, August 20th"
+    footer: "Friday, September 20th"
   },
   
-  21: {
-    title: "Baja Chicken Salad",
-    footer: "Wednesday, August 21th",
-  },
+  // 21: {
+  //   title: "Baja Chicken Salad",
+  //   footer: "Wednesday, September 21th",
+  // },
   
-  22: {
-    title: "DIY Bowls",
-    // text: "w/ veggies",
-    footer: "Thursday, August 22nd",
-  },
+  // 22: {
+  //   title: "DIY Bowls",
+  //   text: "w/ veggies",
+  //   footer: "Thursday, September 22nd",
+  // },
   
   23: {
-    title: "Shrimp Scampi",
-    text: "w/ Ceaser salad",
-    footer: "Friday, August 23th",
+    title: "Italian Beef Sandwiches",
+    // text: "w/ Ceaser salad",
+    footer: "Monday, September 23th",
   },
   
-  // 24: {
-  //   title: "DIY Sandwich Day",
-  //   text: "Italian Pasta Salad",
-  //   footer: "Wednesday, August 24nd",
-  // },
+  24: {
+    title: "Chicken Cordon Bleu",
+    // text: "Italian Pasta Salad",
+    footer: "Tuesday, September 24nd",
+  },
 
-  // 25: {
-  //   title: "Flank Steak Salad",
-  //   text: "w/ rice & veg",
-  //   footer: "Thursday, August 25th",
-  // },
+  25: {
+    title: "DIY Salad Bar",
+    // text: "w/ rice & veg",
+    footer: "Wednesday, September 25th",
+  },
   
   26: {
-    title: "Salmon BTL Bar",
+    title: "Bombay Hut",
     // text: "w/veg fried rice",
-    footer: "Monday, August 26th",
+    footer: "Thursday, September 26th",
   },
+
+  // 27: {
+  //   title: "Blackened Chicken",
+  //   text: "w/ rice & veggies",
+  //   footer: "Tuesday, September 27th",
+  // },
 
   27: {
-    title: "Blackened Chicken",
-    text: "w/ rice & veggies",
-    footer: "Tuesday, August 27th",
-  },
-
-  28: {
-    title: "DIY Salad Bar",
-    // text: "w/ mac and cheese broccoli",
-    footer: "Wednesday, August 28th",
-   
-  },
-  
-  29: {
-    title: "Bombay Hut",
-      // text: "w/ mac and cheese broccoli",
-    footer: "Thurday, August 29th",
-  },
-
-  30: {
     title: "🍔 BBQ 🍔 ",
     imageUrl: "https://i.imgur.com/c8qugHI.jpg",
     imageWidth: 300,
     imageHeight: 230,
     imageAlt: "Custom image",
-    footer: "Friday, August 30th",
+    footer: "Friday, September 27th",
   },
 
-  // 31: {
+  // 28: {
   //   title: "DIY Salad Bar",
-  //   footer: "Wednesday, August 31st"
-  // }
+  //   // text: "w/ mac and cheese broccoli",
+  //   footer: "Wednesday, September 28th",
+   
+  // },
+  
+  // 29: {
+  //   title: "Bombay Hut",
+  //     // text: "w/ mac and cheese broccoli",
+  //   footer: "Thurday, September 29th",
+  // },
+
+  // 30: {
+  //   title: "🍔 BBQ 🍔 ",
+  //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
+  //   imageWidth: 300,
+  //   imageHeight: 230,
+  //   imageAlt: "Custom image",
+  //   footer: "Friday, September 30th",
+  // },
+
+  30: {
+    title: "Baja Chicken Salad Bar",
+    footer: "Monday, September 30th"
+  }
 
   // 31: {
   //   title: "🍔 BBQ 🍔 ",
   //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
   //   imageWidth: 300,
   //   imageHeight: 230,
-  //   footer: "Friday, August 31st"
+  //   footer: "Friday, September 31st"
   // }
-
-
 
   // 28: { title: "🍔 BBQ 🍔 ", imageUrl: '../images/blaze.logo.png',
   //   imageWidth: 400,
   //   imageHeight: 200,
-  //   imageAlt: 'Custom image',footer: "Friday, August 28th" },
+  //   imageAlt: 'Custom image',footer: "Friday, September 28th" },
   // 5: { title: "It's the weekend"}
 };
