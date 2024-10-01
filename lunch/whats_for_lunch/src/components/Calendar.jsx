@@ -19,7 +19,7 @@ function Calendar() {
         <div id="calendar">
           <table>
             <div id="month">
-              <th className="month">SEPTEMBER</th>
+              <th className="month">OCTOBER</th>
             </div>
 
             <div id="weeks">
@@ -36,14 +36,15 @@ function Calendar() {
 
             <div id="days">
               <tr className="week1 week">
-                {/* <td></td> */}
-                <td className="days grey-day">1</td>
-                {/* <td
+                <td></td>
+                <td></td>
+                {/* <td className="days grey-day">1</td> */}
+                <td
                   onClick={() => Swal.fire(showAlerts[1])}
                   className={`days hover-day ${date === 1 ? "red" : "black"}`}
                 >
                   1
-                </td> */}
+                </td>
                 <td
                   onClick={() => Swal.fire(showAlerts[2])}
                   className={`days hover-day ${date === 2 ? "red" : "black"}`}
@@ -62,35 +63,35 @@ function Calendar() {
                   >
                   4
                   </td>
-                  <td
+                  {/* <td
                   onClick={() => Swal.fire(showAlerts[5])}
                   className={`days hover-day ${date === 5 ? "red" : "black"}`}
                   >
                   5
-                </td>
-                <td
+                </td> */}
+                {/* <td
                   onClick={() => Swal.fire(showAlerts[6])}
                   className={`days hover-day ${date === 6 ? "red" : "black"}`}
                 >
                   6
-                </td>
-                <td className="days grey-day">7</td>
+                </td> */}
+                <td className="days grey-day">5</td>
               </tr>
               {/* new week */}
               <tr className="week2 week">
-                <td className="days grey-day">8</td>
-                {/* <td
+                <td className="days grey-day">6</td>
+                <td
                   onClick={() => Swal.fire(showAlerts[7])}
                   className={`days hover-day ${date === 7 ? "red" : "black"}`}
                   >
                   7
-                </td> */}
-                {/* <td
+                </td>
+                <td
                   onClick={() => Swal.fire(showAlerts[8])}
                   className={`days hover-day ${date === 8 ? "red" : "black"}`}
                 >
                   8
-                </td> */}
+                </td>
                 <td
                   onClick={() => Swal.fire(showAlerts[9])}
                   className={`days hover-day ${date === 9 ? "red" : "black"}`}
@@ -109,35 +110,35 @@ function Calendar() {
                     >
                     11
                   </td>
-                <td
+                {/* <td
                   onClick={() => Swal.fire(showAlerts[12])}
                   className={`days hover-day ${date === 12 ? "red" : "black"}`}
                   >
                   12
-                </td>
-                <td
+                </td> */}
+                {/* <td
                   onClick={() => Swal.fire(showAlerts[13])}
                   className={`days hover-day ${date === 13 ? "red" : "black"}`}
                 >
                   13
-                </td>
-                <td className="days grey-day">14</td>
+                </td> */}
+                <td className="days grey-day">12</td>
               </tr>
               {/* new week */}
               <tr className="week3 week">
-                <td className="days grey-day">15</td>
-                {/* <td
+                <td className="days grey-day">13</td>
+                <td
                   onClick={() => Swal.fire(showAlerts[14])}
                   className={`days hover-day ${date === 14 ? "red" : "black"}`}
                 >
                   14
-                </td> */}
-                {/* <td
+                </td>
+                <td
                   onClick={() => Swal.fire(showAlerts[15])}
                   className={`days hover-day ${date === 15 ? "red" : "black"}`}
                 >
                   15
-                </td> */}
+                </td>
                 <td
                   onClick={() => Swal.fire(showAlerts[16])}
                   className={`days hover-day ${date === 16 ? "red" : "black"}`}
@@ -156,35 +157,35 @@ function Calendar() {
                   >
                   18
                 </td>
-                <td
+                {/* <td
                   onClick={() => Swal.fire(showAlerts[19])}
                   className={`days hover-day ${date === 19 ? "red" : "black"}`}
                   >
                   19
-                </td>
-                <td
+                </td> */}
+                {/* <td
                   onClick={() => Swal.fire(showAlerts[20])}
                   className={`days hover-day ${date === 20 ? "red" : "black"}`}
                 >
                   20
-                </td>
-                  <td className="days grey-day">21</td>
+                </td> */}
+                  <td className="days grey-day">19</td>
               </tr>
               {/* new week */}
               <tr className="week4 week">
-                <td className="days grey-day">22</td>
-                {/* <td
+                <td className="days grey-day">20</td>
+                <td
                   onClick={() => Swal.fire(showAlerts[21])}
                   className={`days hover-day ${date === 21 ? "red" : "black"}`}
                 >
                   21
-                </td> */}
-                {/* <td
+                </td>
+                <td
                   onClick={() => Swal.fire(showAlerts[22])}
                   className={`days hover-day ${date === 22 ? "red" : "black"}`}
                 >
                   22
-                </td> */}
+                </td>
                 <td
                   onClick={() => Swal.fire(showAlerts[23])}
                   className={`days hover-day ${date === 23 ? "red" : "black"}`}
@@ -203,53 +204,53 @@ function Calendar() {
                     >
                     25
                   </td>
-                  <td
+                  {/* <td
                     onClick={() => Swal.fire(showAlerts[26])}
                     className={`days hover-day ${date === 26 ? "red" : "black"}`}
                     >
                     26
-                  </td>
-                <td
+                  </td> */}
+                {/* <td
                   onClick={() => Swal.fire(showAlerts[27])}
                   className={`days hover-day ${date === 27 ? "red" : "black"}`}
                 >
                   27
-                </td>
-                <td className="days grey-day">28</td>
+                </td> */}
+                <td className="days grey-day">26</td>
               </tr>
               {/* new week */}
               <tr className="week5 week">
-                <td className="days grey-day">29</td>
-                {/* <td
+                <td className="days grey-day">27</td>
+                <td
                   onClick={() => Swal.fire(showAlerts[28])}
                   className={`days hover-day ${date === 28 ? "red" : "black"}`}
                 >
                   28
-                </td> */}
-                {/* <td
+                </td>
+                <td
                   onClick={() => Swal.fire(showAlerts[29])}
                   className={`days hover-day ${date === 29 ? "red" : "black"}`}
                 >
                   29
-                </td> */}
+                </td>
                 <td
                   onClick={() => Swal.fire(showAlerts[30])}
                   className={`days hover-day ${date === 30 ? "red" : "black"}`}
                   >
                   30
                 </td>
-                {/* <td
+                <td
                   onClick={() => Swal.fire(showAlerts[31])}
                   className={`days hover-day ${date === 31 ? "red" : "black"}`}
                   >
                   31
-                </td> */}
+                </td>
                 {/* <td className="days grey-day">31</td> */}
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                {/* <td></td> */}
+                {/* <td></td> */}
+                {/* <td></td> */}
                 {/* <tr className="week5 week"> */}
                 {/* <td></td> */}
               </tr>
