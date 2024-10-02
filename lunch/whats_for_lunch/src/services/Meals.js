@@ -42,46 +42,32 @@ export const showAlerts = {
   // },
   
   7: { 
-    title: "TBD",
-    // title: "DIY Sandwiches", 
-    // text: " w/ Ceasar salad",
+    title: "Braised chicken w/ tomato",
+    text: " w/ rice & veggies",
     footer: "Monday, October 7th" 
   },
 
-  // 7: {
-  //   title: "🍔 BBQ 🍔 ",
-  //   imageUrl: "https://i.imgur.com/c8qugHI.jpg",
-  //   imageWidth: 300,
-  //   imageHeight: 230,
-  //   imageAlt: "Custom image",
-  //   footer: "Friday, October 7th",
-  // },
-
   8: {
-    title: "TBD",
-    // title: "Teriyaki Salmon",
+    title: "Paninis & salad",
     // text: "w/ rice & green beans",
     footer: "Tuesday, October 8th",
   },
 
   9: {
-    title: "TBD",
-    // title: "Managers Conference",
+    title: "DIY Salad Day",
     // text: "",
     footer: "Wednesday, October 9th",
   },
   
   10: {
-    title: "TBD",
-    // title: "DIY Sandwiches",
+    title: "Chicken torilla soup",
     // text: "w/rice & tomato salad",
     footer: "Thursday, October 10th",
   },
   
   11: {
-    title: "TBD",
-    // title: "Lemon Pepper Shrimp",
-      // text: "w/ rice & green beans",
+    title: "Stuffed Peppers",
+      text: "w/ greek salad",
     footer: "Friday, October 11th",
   },
   
@@ -98,36 +84,34 @@ export const showAlerts = {
   // },
   
   14: {
-    title: "TBD",
+    title: "Chicken parm",
     // title: "DIY Salad Bar",
     // text: "w/ mashed taters & veggies",
     footer: "Monday, October 14th",
   },
 
   15: {
-    title: "TBD",
+    title: "Halal Guys",
     // title: "Tomato Pasta & Chicken",
     // text: "w/ salad",
     footer: "Tuesday, October 15th",
   },
 
   16: {
-    title: "TBD",
+    title: "DIY sandwiches",
     // title: "Ziti w/ 🍆 & Ricotta",
     // text: "🌮🌮🌮",
     footer: "Wednesday, October 16th",
   },
 
   17: {
-    title: "TBD",
-    // title: "Panko Chicken",
-    // text: "w/rice & veggies",
+    title: "Shrimp/chicken arribiata",
+    text: "w/penne",
     footer: "Thursday, October 17th",
   },
 
   18: {
-    title: "TBD",
-    // title: "DIY Sandwich Day",
+    title: "Rustic salad w/grilled chicken",
     // text: "w/ salad & garlic bread",
     footer: "Friday, October 18th",
   },
@@ -145,36 +129,32 @@ export const showAlerts = {
   // },
   
   21: {
-    title: "TBD",
+    title: "Dynamite rolls",
     // title: "Baja Chicken Salad",
     footer: "Monday, October 21th",
   },
   
   22: {
-    title: "TBD",
-    // title: "DIY Bowls",
-    // text: "w/ veggies",
+    title: "Grilled Chicken",
+    text: "w/ penne vodka",
     footer: "Tuesday, October 22nd",
   },
   
   23: {
-    title: "TBD",
-    // title: "Italian Beef Sandwiches",
+    title: "DIY salad",
     // text: "w/ Ceaser salad",
     footer: "Wednesday, October 23th",
   },
   
   24: {
-    title: "TBD",
-    // title: "Chicken Cordon Bleu",
+    title: "Cali burger bar",
     // text: "Italian Pasta Salad",
     footer: "Thursday, October 24nd",
   },
 
   25: {
-    title: "TBD",
-    // title: "DIY Salad Bar",
-    // text: "w/ rice & veg",
+    title: "Grilled Chicken",
+    text: "w/ fall farro salad",
     footer: "Friday, October 25th",
   },
   
@@ -191,14 +171,13 @@ export const showAlerts = {
   // },
 
   28: {
-    title: "TBD",
-    // title: "DIY Salad Bar",
+    title: "DIY sandwiches",
     // text: "w/ mac and cheese broccoli",
     footer: "Monday, October 28th",
   },
   
   29: {
-    title: "TBD",
+    title: "Taco tuesday",
     // title: "Bombay Hut",
       // text: "w/ mac and cheese broccoli",
     footer: "Tuesday, October 29th",
@@ -214,13 +193,13 @@ export const showAlerts = {
   // },
 
   30: {
-    title: "TBD",
-    // title: "Baja Chicken Salad Bar",
+    title: "Halloween Party",
+    title: "👻👻👻",
     footer: "Wednesday, October 30th"
   },
 
   31: {
-    title: "TBD",
+    title: "Shrimp scampi",
     // title: "🍔 BBQ 🍔 ",
     footer: "Thursday, October 31st"
   }
