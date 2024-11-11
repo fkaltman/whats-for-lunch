@@ -30,6 +30,12 @@ body {
   display: none;
 }
 
+.brb-container {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
 .logo-header {
   text-align: center;
 }
