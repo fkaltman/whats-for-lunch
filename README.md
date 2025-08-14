@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<img src="https://imgur.com/GxAPmfd.png" alt="WFT logo, which is a yellow version of the BTG red peak logo" width="400" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A Lunch App for the Blinds To Go Corporate Office
 
-## Available Scripts
+A statically generated site to help employees of the Blind's To Go corporate office in Paramus, New Jersey answer the question that rings through the halls of any corporate workspace: "What's for lunch?"  
+*Active from March 2023 to January 2025.*
 
-In the project directory, you can run:
+## 🌮 Features
 
-### `npm start`
+- Mobile-first & user-friendly
+- Allowed users to view the daily catered lunch offerings and look ahead at the weeks to follow
+- Provided links and information to walkable takeout restaurants for users who were not interested in the catered lunch of the day
+- Tracked usage over time with Google Analytics
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🍔 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React (Launched in JavaScript and later converted to TypeScript)
+- TypeScript
+- Node.js
+- GitHub for version control
+- surge.sh for low-overhead deployment
 
-### `npm test`
+## 🤠 Users
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+At its heyday, the app boasted over 100 users according to Google Analytics, a number that includes a large majority of the corporate office workers in addition to employees in nearby Blinds To Go showrooms and traveling (Shop-at-home) employees, who might stop in for a bite at lunchtime if the daily catering suited them.
 
-### `npm run build`
+<img src="https://imgur.com/lWflMs7.png" alt="Screenshot from GA circa 2024 showing usership at WFT" width="600" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📱 Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://imgur.com/SVL7Tj1.png" alt="Screenshot of the homepage on mobile" width="200" />  
+<img src="https://imgur.com/ir8JMlV.png" alt="Screenshot of the calendar page with a day selected" width="200" />  
+<img src="https://imgur.com/Xsvx4sO.png" alt="Screenshot of the takeout options page linking to nearby restaurants" width="200" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚠️ Disclaimer
 
-### `npm run eject`
+This app was originally developed to serve employees of the Blind's To Go corporate office in Paramus. However, it was created independently as a personal project. Blind's To Go is not responsible for the content of this app or for any actions a user might take while using it.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Note: A recent correction to the file structure has wiped the GitHub history, but the site was active from March 2023 to January 2025.*
