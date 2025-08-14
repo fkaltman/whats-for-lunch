@@ -1,8 +1,8 @@
-<img src="https://imgur.com/GxAPmfd.png" alt="WFT logo, which is a yellow version of the BTG red peak logo" width="400" />
+<img src="https://imgur.com/GxAPmfd.png" alt="WFT logo, which is a yellow version of the BTG red peak logo" width="300" />
 
 # A Lunch App for the Blinds To Go Corporate Office
 
-A statically generated site to help employees of the Blind's To Go corporate office in Paramus, New Jersey answer the question that rings through the halls of any corporate workspace: "What's for lunch?"  
+A React.js application that helps BTG employees see what’s on the lunch menu and explore nearby takeout options, answering the question that rings through the halls of any corporate workspace: "What's for lunch?"  
 *Active from March 2023 to January 2025.*
 
 ## 🌮 Features
@@ -22,7 +22,7 @@ A statically generated site to help employees of the Blind's To Go corporate off
 
 ## 🤠 Users
 
-At its heyday, the app boasted over 100 users according to Google Analytics, a number that includes a large majority of the corporate office workers in addition to employees in nearby Blinds To Go showrooms and traveling (Shop-at-home) employees, who might stop in for a bite at lunchtime if the daily catering suited them.
+This app was designed for employees of the Blinds To Go corporate office in Paramus, NJ, by one such employee.  It reached over 100 users at its peak, per Google Analytics, a number that includes a large majority of the corporate office workers in addition to employees in nearby Blinds To Go showrooms and traveling (Shop-at-home) employees, who might stop in for a bite at lunchtime if the daily catering suited them.
 
 <img src="https://imgur.com/lWflMs7.png" alt="Screenshot from GA circa 2024 showing usership at WFT" width="600" />
 
