@@ -36,4 +36,4 @@ At its heyday, the app boasted over 100 users according to Google Analytics, a n
 
 This app was originally developed to serve employees of the Blind's To Go corporate office in Paramus. However, it was created independently as a personal project. Blind's To Go is not responsible for the content of this app or for any actions a user might take while using it.
 
-*Note: A recent correction to the file structure has wiped the GitHub history, but the site was active from March 2023 to January 2025.*
+*Note: Original commit history removed; project active March 2023–January 2025.*
