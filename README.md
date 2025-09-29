@@ -5,14 +5,14 @@
 A statically generated site to help employees of the Blind's To Go corporate office in Paramus, New Jersey answer the question that rings through the halls of any corporate workspace: "What's for lunch?"  
 *Active from March 2023 to January 2025.*
 
-## 🌮 Features
+## Features
 
 - Mobile-first & user-friendly
 - Allowed users to view the daily catered lunch offerings and look ahead at the weeks to follow
 - Provided links and information to walkable takeout restaurants for users who were not interested in the catered lunch of the day
 - Tracked usage over time with Google Analytics
 
-## 🍔 Tech Stack
+## Tech Stack
 
 - React (Launched in JavaScript and later converted to TypeScript)
 - TypeScript
@@ -20,7 +20,7 @@ A statically generated site to help employees of the Blind's To Go corporate off
 - GitHub for version control
 - surge.sh for low-overhead deployment
 
-## 🤠 Users
+## Users
 
 At its heyday, the app boasted over 100 users according to Google Analytics, a number that includes a large majority of the corporate office workers in addition to employees in nearby Blinds To Go showrooms and traveling (Shop-at-home) employees, who might stop in for a bite at lunchtime if the daily catering suited them.
 
@@ -32,8 +32,8 @@ At its heyday, the app boasted over 100 users according to Google Analytics, a n
 <img src="https://imgur.com/ir8JMlV.png" alt="Screenshot of the calendar page with a day selected" width="200" />  
 <img src="https://imgur.com/Xsvx4sO.png" alt="Screenshot of the takeout options page linking to nearby restaurants" width="200" />
 
-## ⚠️ Disclaimer
+## Notes
 
-This app was originally developed to serve employees of the Blind's To Go corporate office in Paramus. However, it was created independently as a personal project. Blind's To Go is not responsible for the content of this app or for any actions a user might take while using it.
+This app was originally built for employees at Blind’s To Go’s Paramus office, but it is an independent personal project. Blind’s To Go is not responsible for its content or use.
 
-*Note: Original commit history removed; project active March 2023–January 2025.*
+This repository was reorganized in January 2025 to simplify the folder structure (originally created with create-react-app). During that process, commit history was reset, but the project was actively developed from March 2023 through January 2025.
